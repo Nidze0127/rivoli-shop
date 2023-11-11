@@ -7,6 +7,7 @@
       </div>
       <GalleryBlock />
       <LastNews />
+      <OurPartners />
     </div>
   </main>
 </template>
@@ -16,6 +17,7 @@ import {
   SwiperCarousel, 
   AboutUsTiles, 
   GalleryBlock,
-  LastNews
+  LastNews,
+  OurPartners
 } from '../components';
 </script>
