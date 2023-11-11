@@ -1,9 +1,9 @@
 <template>
-  <main>
-    <HeaderComponent />
+  <main class="flex flex-col">
+    <SwiperCarousel />
   </main>
 </template>
 
 <script setup lang="ts">
-import { HeaderComponent } from '../components';
+import { SwiperCarousel } from '../components';
 </script>
