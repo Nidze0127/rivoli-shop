@@ -1,11 +1,11 @@
-import HeaderComponent from "./HeaderComponent.vue";
 import SwiperCarousel from "./SwiperCarousel.vue";
 import AboutUsTiles from "./AboutUsTiles.vue";
-import GalleryBlock from './GalleryBlock.vue'
+import GalleryBlock from './GalleryBlock.vue';
+import LastNews from './LastNews.vue';
 
 export {
-    HeaderComponent,
     SwiperCarousel,
     AboutUsTiles,
-    GalleryBlock
+    GalleryBlock,
+    LastNews
 }
