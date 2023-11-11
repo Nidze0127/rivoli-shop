@@ -1,10 +1,11 @@
 <template>
   <HeaderComponent />
   <RouterView />
+  <FooterComponent />
 </template>
 
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
-import { HeaderComponent } from './components';
+import { HeaderComponent, FooterComponent } from './components';
 
 </script>

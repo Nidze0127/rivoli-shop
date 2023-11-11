@@ -1,5 +1,6 @@
-import HeaderComponent from './HeaderComponent.vue'
+import HeaderComponent from './HeaderComponent.vue';
+import FooterComponent from './FooterComponent.vue';
 
-export {HeaderComponent}
+export {HeaderComponent, FooterComponent}
 export * from './home'
 
