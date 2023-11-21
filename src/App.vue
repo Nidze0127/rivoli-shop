@@ -1,7 +1,9 @@
 <template>
-  <HeaderComponent />
-  <RouterView />
-  <FooterComponent />
+  <div id="app" class="flex flex-col">
+    <HeaderComponent />
+    <RouterView />
+    <FooterComponent />
+  </div>
 </template>
 
 <script setup lang="ts">
