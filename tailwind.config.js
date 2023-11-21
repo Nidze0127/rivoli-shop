@@ -7,7 +7,8 @@ export default {
       'blue-secondary': '#DFE5F2',
       'green-logo': '#426B1F',
       'gray-200': '#506369',
-      'gray-300': '#98ABA7'
+      'gray-300': '#98ABA7',
+      'gray-400': '#575757'
     },
     fontFamily: {
       cormorant: ['Cormorant', 'serif'],

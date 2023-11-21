@@ -1,5 +1,5 @@
 <template>
-  <div class="embla" ref="emblaNode">
+  <div class="embla mt-[90px]" ref="emblaNode">
     <div class="embla__container">
       <div class="embla__slide"><img src="@/assets/swiper-1.jpg" height="560" alt="" /></div>
       <div class="embla__slide"><img src="@/assets/swiper-2.jpg" height="560" alt="" /></div>
