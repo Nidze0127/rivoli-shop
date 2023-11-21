@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="flex flex-col">
+  <div id="app" class="flex flex-col px-[135px]">
     <HeaderComponent />
     <RouterView />
     <FooterComponent />
@@ -8,6 +8,5 @@
 
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
-import { HeaderComponent, FooterComponent } from './components';
-
+import { HeaderComponent, FooterComponent } from './components'
 </script>
