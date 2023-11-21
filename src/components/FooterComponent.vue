@@ -1,18 +1,23 @@
 <template>
-    <footer class="flex items-center justify-between px-24 py-7 bg-blue-main">
-        <div class="flex items-center w-1/2 py-6 px-12 bg-blue-secondary rounded-xl">
-            <div class="flex flex-col items-center gap-8">
-                <p class="text-xl uppercase">Rivoli Almaty</p>
-                <div class="flex justify-center gap-6">
-                    <img src="@/assets/facebook.svg" width="24" height="24" alt="">
-                    <img src="@/assets/insta.svg" width="24" height="24" alt="">
-                </div>
-            </div>
-            <div class="flex flex-col justify-between w-full">
-                <p>Tel: +7 777 777 77 77</p>
-                <p>Email: email@email.com</p>
-                <p>Adress: adress</p>
-            </div>
-        </div>
-    </footer>
+  <footer class="flex flex-col items-center gap-12 py-12 self-center w-full border-t border-black">
+    <div class="flex flex-col items-center gap-5">
+      <img src="@/assets/footer-logo.svg" alt="" />
+      <p class="uppercase font-medium font-montserrat">Галерея уюта и комфорта</p>
+    </div>
+    <nav class="flex items-center gap-10 uppercase transition">
+      <RouterLink to="/" class="hover:text-gray-300 hover:underline hover:duration-300">О нас</RouterLink>
+      <RouterLink to="/about" class="hover:text-gray-300 hover:underline hover:duration-300">Галерея</RouterLink>
+      <RouterLink to="/about" class="hover:text-gray-300 hover:underline hover:duration-300">Новости</RouterLink>
+      <RouterLink to="/about" class="hover:text-gray-300 hover:underline hover:duration-300">Партнеры</RouterLink>
+      <RouterLink to="/about" class="hover:text-gray-300 hover:underline hover:duration-300">Контакты</RouterLink>
+    </nav>
+    <div class="flex gap-3">
+      <div class="p-[6px] border border-gray-200">
+        <img src="@/assets/instagram.svg" width="16" height="16" alt="Instagram link" />
+      </div>
+      <div class="p-[6px] border border-gray-200">
+        <img src="@/assets/whatsapp.svg" width="16" height="16" alt="Whatsapp link" />
+      </div>
+    </div>
+  </footer>
 </template>
