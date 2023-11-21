@@ -1,15 +1,10 @@
 <template>
   <main class="flex flex-col">
     <AboutUs />
+    <ImageCarousel />
   </main>
 </template>
 
 <script setup lang="ts">
-import {
-  SwiperCarousel,
-  AboutUs,
-  GalleryBlock,
-  LastNews,
-  OurPartners
-} from '../components'
+import { ImageCarousel, AboutUs, GalleryBlock, LastNews, OurPartners } from '../components'
 </script>
