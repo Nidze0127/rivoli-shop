@@ -12,7 +12,7 @@
 import emblaCarouselVue from 'embla-carousel-vue'
 import Autoplay from 'embla-carousel-autoplay'
 
-const [emblaNode] = emblaCarouselVue({ loop: true }, [Autoplay()])
+const [emblaNode] = emblaCarouselVue({ loop: true, containScroll: false }, [Autoplay()])
 </script>
 
 <style scoped>

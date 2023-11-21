@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="flex flex-col px-[135px]">
+  <div id="app" class="flex flex-col px-[135px] overflow-x-hidden">
     <HeaderComponent />
     <RouterView />
     <FooterComponent />
