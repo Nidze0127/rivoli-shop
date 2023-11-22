@@ -6,6 +6,7 @@ export default {
       'blue-main': '#F0F3FA',
       'blue-secondary': '#DFE5F2',
       'green-logo': '#426B1F',
+      'green-100': '#98ABA7',
       'gray-200': '#506369',
       'gray-300': '#98ABA7',
       'gray-400': '#575757',
