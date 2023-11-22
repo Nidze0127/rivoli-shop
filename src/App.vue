@@ -1,9 +1,9 @@
 <template>
-  <div id="app" class="flex flex-col px-[135px] overflow-x-hidden">
+  <main class="flex flex-col px-[135px] overflow-x-hidden">
     <HeaderComponent />
     <RouterView />
     <FooterComponent />
-  </div>
+  </main>
 </template>
 
 <script setup lang="ts">

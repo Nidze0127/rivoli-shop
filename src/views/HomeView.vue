@@ -3,6 +3,7 @@
     <AboutUs />
     <GalleryBlock />
     <OurPartners />
+    <LastNews />
   </main>
 </template>
 

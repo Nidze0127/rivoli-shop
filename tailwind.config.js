@@ -8,7 +8,8 @@ export default {
       'green-logo': '#426B1F',
       'gray-200': '#506369',
       'gray-300': '#98ABA7',
-      'gray-400': '#575757'
+      'gray-400': '#575757',
+      'gray-500': '#666'
     },
     fontFamily: {
       cormorant: ['Cormorant', 'serif'],
