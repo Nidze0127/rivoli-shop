@@ -9,5 +9,5 @@
 </template>
 
 <script setup lang="ts">
-import { AboutUs, GalleryBlock, LastNews, OurPartners, ShopContacts } from '../components'
+import { AboutUs, GalleryBlock, LastNews, OurPartners, ShopContacts } from './components'
 </script>

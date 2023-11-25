@@ -1,0 +1,5 @@
+export { ContactsDesktop } from './contacts'
+export { HomeDesktop } from './home'
+export { AboutUsDesktop } from './about-us'
+export { NewsDetailsDesktop, NewsListDesktop, NewsMainDesktop } from './news'
+export { NotFoundDesktop } from './not-found'

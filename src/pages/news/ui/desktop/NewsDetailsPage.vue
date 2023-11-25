@@ -12,5 +12,5 @@
 </template>
 
 <script setup lang="ts">
-import { NewsCard, NewsArticle } from '@/components'
+import { NewsCard, NewsArticle } from './components'
 </script>

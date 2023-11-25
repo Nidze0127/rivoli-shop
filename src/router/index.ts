@@ -1,5 +1,13 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import { HomeView, AboutUsView, NotFoundView, NewsListView, NewsMainView, NewsDetailsView } from '@/views'
+import {
+  HomeDesktop,
+  AboutUsDesktop,
+  NotFoundDesktop,
+  NewsListDesktop,
+  NewsMainDesktop,
+  NewsDetailsDesktop,
+  ContactsDesktop
+} from '@/pages'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -7,34 +15,39 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: HomeView
+      component: HomeDesktop
     },
     {
       path: '/about-us',
       name: 'about-us',
-      component: AboutUsView
+      component: AboutUsDesktop
     },
     {
       path: '/news',
       name: 'news',
-      component: NewsMainView,
+      component: NewsMainDesktop,
       children: [
         {
           path: 'list',
           name: 'news-list',
-          component: NewsListView
+          component: NewsListDesktop
         },
         {
           path: ':id',
           name: 'news-details',
-          component: NewsDetailsView
+          component: NewsDetailsDesktop
         }
       ]
     },
     {
+      path: '/contacts',
+      name: 'contacts',
+      component: ContactsDesktop
+    },
+    {
       path: '/:pathMatch(.*)*',
       name: 'not-found',
-      component: NotFoundView
+      component: NotFoundDesktop
     }
   ]
 })
