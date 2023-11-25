@@ -2,7 +2,7 @@
   <main class="flex flex-col items-center py-[100px]">
     <div class="absolute top-0 left-0 h-[1000px] w-full bg-green-100 -z-10"></div>
     <div class="flex flex-col items-center gap-12 mb-[120px]">
-      <h4 class="font-cormorant font-bold text-[60px] uppercase text-center">о нас</h4>
+      <h1 class="font-cormorant font-bold text-[60px] uppercase text-center">о нас</h1>
       <p class="w-4/5 font-cormorant font-bold text-[64px] text-center">
         Исключительные предметы мебели и интерьера от известных мировых производителей
       </p>
@@ -49,4 +49,6 @@
   </main>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { RouterLink } from 'vue-router'
+</script>
