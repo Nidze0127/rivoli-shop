@@ -58,8 +58,13 @@
           </div>
         </div>
       </div>
-      <img v-if="activeCity === CityName.almaty" src="@/assets/almaty-geo.png" class="col-span-2" alt="" />
-      <img v-else-if="activeCity === CityName.shymkent" src="@/assets/shymkent-geo.png" class="col-span-2" alt="" />
+      <img v-if="activeCity === CityName.almaty" src="@/assets/maps/almaty-geo.png" class="col-span-2" alt="" />
+      <img
+        v-else-if="activeCity === CityName.shymkent"
+        src="@/assets/maps/shymkent-geo.png"
+        class="col-span-2"
+        alt=""
+      />
     </div>
   </div>
 </template>

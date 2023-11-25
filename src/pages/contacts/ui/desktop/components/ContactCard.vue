@@ -4,9 +4,10 @@
       <div class="flex items-start gap-3">
         <img src="@/assets/icons/calendar.svg" width="24" height="24" alt="" class="mt-2" />
         <p class="flex flex-col text-gray-400 text-lg">
-          <span>Пн-пт 11:00-20:00</span>
-          <span>Сб 11:00-17:00</span>
-          <span>Вс выходной</span>
+          <span>Пн-пт {{ shopData.workingHours.weekdays }}</span>
+          <span>Сб {{ shopData.workingHours.saturday }}</span>
+          <span v-if="shopData.workingHours.sunday">Вс выходной</span>
+          <span v-else>Вс выходной</span>
         </p>
       </div>
       <div class="flex items-start gap-3">
@@ -20,9 +21,7 @@
       <div class="flex items-start gap-3">
         <img src="@/assets/icons/phone.svg" width="24" height="24" alt="" class="mt-2" />
         <p class="flex flex-col text-gray-400 text-lg">
-          <span>+7 (727) 272 33 33</span>
-          <span>+7 (727) 272 32 72 </span>
-          <span>+7 702 112 00 66</span>
+          <span v-for="(number, index) in shopData.phone" :key="`phone-${index}`">{{ number }}</span>
         </p>
       </div>
       <div class="flex items-center gap-3">
@@ -37,15 +36,27 @@
           <img src="@/assets/whatsapp.svg" width="16" height="16" alt="Whatsapp link" />
         </div>
       </div>
-      <div class="flex items-start gap-3">
+      <div v-if="shopData.warning" class="flex items-start gap-3">
         <img src="@/assets/icons/alert.svg" width="24" height="24" alt="" class="mt-2" />
-        <p class="flex flex-col text-gray-400 text-lg">Все звонки и сообщения обрабатываться только в рабочее время</p>
+        <p class="flex flex-col text-gray-400 text-lg">{{ shopData.warning }}</p>
       </div>
     </div>
     <div class="w-full">
-      <img src="@/assets/almaty-geo.png" class="h-full object-cover" alt="" />
+      <img v-if="shopData.adress === 'almaty'" src="@/assets/maps/almaty-geo.png" class="h-full object-cover" alt="" />
+      <img
+        v-else-if="shopData.adress === 'shymkent'"
+        src="@/assets/maps/shymkent-geo.png"
+        class="h-full object-cover"
+        alt=""
+      />
     </div>
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import type { ShopData } from '../../../model'
+
+defineProps<{
+  shopData: ShopData
+}>()
+</script>
