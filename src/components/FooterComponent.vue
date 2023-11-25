@@ -12,10 +12,10 @@
       <RouterLink to="/about" class="hover:text-gray-300 hover:underline hover:duration-300">Контакты</RouterLink>
     </nav>
     <div class="flex gap-3">
-      <div class="p-[6px] border border-gray-200">
+      <div class="p-[6px] border border-green-200">
         <img src="@/assets/instagram.svg" width="16" height="16" alt="Instagram link" />
       </div>
-      <div class="p-[6px] border border-gray-200">
+      <div class="p-[6px] border border-green-200">
         <img src="@/assets/whatsapp.svg" width="16" height="16" alt="Whatsapp link" />
       </div>
     </div>

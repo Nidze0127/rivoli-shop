@@ -12,10 +12,10 @@
     </div>
     <div class="flex items-center gap-[210px]">
       <div class="flex items-center gap-3">
-        <div class="p-[6px] border border-gray-200">
+        <div class="p-[6px] border border-green-200">
           <img src="@/assets/instagram.svg" width="16" height="16" alt="Instagram link" />
         </div>
-        <div class="p-[6px] border border-gray-200">
+        <div class="p-[6px] border border-green-200">
           <img src="@/assets/whatsapp.svg" width="16" height="16" alt="Whatsapp link" />
         </div>
         <p>+7 702 112 00 66</p>
