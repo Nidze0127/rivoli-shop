@@ -1,14 +1,9 @@
 <template>
   <header class="flex items-center justify-between py-5 self-center w-full border-b border-black">
     <div class="flex items-center gap-24">
-      <img src="@/assets/rivoli-logo.svg" width="161" height="53" alt="Rivoli Logo" />
-      <nav class="flex items-center gap-10 uppercase transition">
-        <RouterLink to="/" class="hover:text-gray-300 hover:underline hover:duration-300">О нас</RouterLink>
-        <RouterLink to="/about" class="hover:text-gray-300 hover:underline hover:duration-300">Галерея</RouterLink>
-        <RouterLink to="/about" class="hover:text-gray-300 hover:underline hover:duration-300">Новости</RouterLink>
-        <RouterLink to="/about" class="hover:text-gray-300 hover:underline hover:duration-300">Партнеры</RouterLink>
-        <RouterLink to="/about" class="hover:text-gray-300 hover:underline hover:duration-300">Контакты</RouterLink>
-      </nav>
+      <img v-if="isLogoBlack" src="@/assets/rivoli-logo-black.svg" width="161" height="53" alt="Rivoli Logo" />
+      <img v-else src="@/assets/rivoli-logo.svg" width="161" height="53" alt="Rivoli Logo" />
+      <NavLinks />
     </div>
     <div class="flex items-center gap-[210px]">
       <div class="flex items-center gap-3">
@@ -24,4 +19,12 @@
   </header>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { computed } from 'vue'
+import { useRoute } from 'vue-router'
+import NavLinks from './NavLinks.vue'
+
+const route = useRoute()
+
+const isLogoBlack = computed(() => route.name === 'about-us' || route.name === 'not-found')
+</script>

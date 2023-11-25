@@ -4,13 +4,7 @@
       <img src="@/assets/footer-logo.svg" alt="" />
       <p class="uppercase font-medium font-montserrat">Галерея уюта и комфорта</p>
     </div>
-    <nav class="flex items-center gap-10 uppercase transition">
-      <RouterLink to="/" class="hover:text-gray-300 hover:underline hover:duration-300">О нас</RouterLink>
-      <RouterLink to="/about" class="hover:text-gray-300 hover:underline hover:duration-300">Галерея</RouterLink>
-      <RouterLink to="/about" class="hover:text-gray-300 hover:underline hover:duration-300">Новости</RouterLink>
-      <RouterLink to="/about" class="hover:text-gray-300 hover:underline hover:duration-300">Партнеры</RouterLink>
-      <RouterLink to="/about" class="hover:text-gray-300 hover:underline hover:duration-300">Контакты</RouterLink>
-    </nav>
+    <NavLinks />
     <div class="flex gap-3">
       <div class="p-[6px] border border-green-200">
         <img src="@/assets/instagram.svg" width="16" height="16" alt="Instagram link" />
@@ -21,3 +15,7 @@
     </div>
   </footer>
 </template>
+
+<script setup lang="ts">
+import NavLinks from './NavLinks.vue'
+</script>
