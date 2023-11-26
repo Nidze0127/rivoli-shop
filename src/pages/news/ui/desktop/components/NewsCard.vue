@@ -1,6 +1,9 @@
 <template>
-  <article class="grid grid-cols-2 items-center gap-8 font-montserrat odd:mr-[200px] even:ml-[200px]">
-    <div class="flex flex-col gap-4">
+  <article
+    class="grid grid-cols-2 items-center gap-8 font-montserrat"
+    :class="{ 'odd:mr-[200px] even:ml-[200px]': !isReversed }"
+  >
+    <div class="flex flex-col gap-4" :class="{ 'order-last': isReversed }">
       <span class="text-gray-400 text-lg">{{ newsDetails.date }}</span>
       <div class="flex flex-col gap-6">
         <h6 class="text-gray-400 text-2xl font-semibold">{{ newsDetails.title }}</h6>
@@ -25,6 +28,7 @@ import type { NewsDetails } from '../../../model'
 
 const props = defineProps<{
   newsDetails: NewsDetails
+  isReversed?: boolean
 }>()
 
 const src = computed(() => {

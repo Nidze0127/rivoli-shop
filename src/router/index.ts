@@ -55,7 +55,10 @@ const router = createRouter({
       name: 'not-found',
       component: NotFoundDesktop
     }
-  ]
+  ],
+  scrollBehavior(to, from, savedPosition) {
+    return { top: 0 }
+  }
 })
 
 export default router

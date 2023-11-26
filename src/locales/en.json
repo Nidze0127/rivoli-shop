@@ -73,7 +73,8 @@
                 "street": "Tamerlan highway 19",
                 "building": "Al-Farabi shopping center, boutique 122"
             }
-        }
+        },
+        "news": "News"
     },
     "news": {
         "title": "News",
