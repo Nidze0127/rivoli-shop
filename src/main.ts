@@ -12,7 +12,7 @@ const i18n = createI18n({
   globalInjection: true,
   locale: 'en',
   fallbackLocale: 'en',
-  availableLocales: ['en', 'ru', 'kk'],
+  availableLocales: ['en', 'ru', 'kz'],
   messages: messages
 })
 

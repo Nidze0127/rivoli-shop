@@ -33,10 +33,10 @@
       </div>
       <div class="flex gap-3 pl-9">
         <div class="p-[6px] border border-green-200">
-          <img src="@/assets/instagram.svg" width="16" height="16" alt="Instagram link" />
+          <img src="@/assets/icons/instagram.svg" width="16" height="16" alt="Instagram link" />
         </div>
         <div class="p-[6px] border border-green-200">
-          <img src="@/assets/whatsapp.svg" width="16" height="16" alt="Whatsapp link" />
+          <img src="@/assets/icons/whatsapp.svg" width="16" height="16" alt="Whatsapp link" />
         </div>
       </div>
       <div v-if="shopData.warning" class="flex items-start gap-3">
