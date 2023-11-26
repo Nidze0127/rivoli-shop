@@ -1,8 +1,10 @@
 <template>
   <header class="flex items-center justify-between py-5 self-center w-full border-b border-black">
     <div class="flex items-center gap-24">
-      <img v-if="isLogoBlack" src="@/assets/rivoli-logo-black.svg" width="161" height="53" alt="Rivoli Logo" />
-      <img v-else src="@/assets/rivoli-logo.svg" width="161" height="53" alt="Rivoli Logo" />
+      <RouterLink to="/">
+        <img v-if="isLogoBlack" src="@/assets/rivoli-logo-black.svg" width="161" height="53" alt="Rivoli Logo" />
+        <img v-else src="@/assets/rivoli-logo.svg" width="161" height="53" alt="Rivoli Logo" />
+      </RouterLink>
       <NavLinks />
     </div>
     <div class="flex items-center gap-[210px]">
@@ -21,7 +23,7 @@
 
 <script setup lang="ts">
 import { computed } from 'vue'
-import { useRoute } from 'vue-router'
+import { useRoute, RouterLink } from 'vue-router'
 import NavLinks from './NavLinks.vue'
 
 const route = useRoute()

@@ -2,7 +2,9 @@
   <div class="flex flex-col items-center gap-24 mt-[120px]">
     <h4 class="font-cormorant font-semibold text-[60px] uppercase text-center">новости</h4>
     <div class="grid grid-cols-2 items-center gap-8">
-      <img src="@/assets/last-news.png" alt="" class="object-cover" />
+      <div>
+        <img src="@/assets/last-news.png" alt="" class="w-full h-full object-fill" />
+      </div>
       <div class="flex flex-col gap-5">
         <p class="text-lg font-montserrat text-gray-500">08.01.2021</p>
         <p class="text-2xl font-montserrat font-semibold">
