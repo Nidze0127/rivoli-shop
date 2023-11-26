@@ -6,9 +6,9 @@
     >
       <div class="flex flex-col items-center bg-green-200 bg-opacity-70 -mt-12">
         <h1 class="font-cormorant text-[360px] font-bold text-white">404</h1>
-        <p class="font-cormorant text-[64px] font-bold text-white">К сожалению страница не найдена.</p>
+        <p class="font-cormorant text-[64px] font-bold text-white">{{ $t('notFound.title') }}</p>
         <RouterLink to="/" class="flex gap-1 w-fit mt-6">
-          <span class="uppercase font-montserrat text-white">перейти на главную</span>
+          <span class="uppercase font-montserrat text-white">{{ $t('notFound.goHome') }}</span>
           <img src="@/assets/icons/arrow-white.svg" width="12" height="6" class="mt-1" alt="" />
         </RouterLink>
       </div>

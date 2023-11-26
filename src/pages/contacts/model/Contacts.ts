@@ -1,6 +1,6 @@
 export type ShopData = {
   name: string
-  adress: string
+  address: string
   phone: string[]
   insta: string
   whatsapp: string

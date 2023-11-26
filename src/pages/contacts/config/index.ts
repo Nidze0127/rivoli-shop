@@ -3,7 +3,7 @@ import type { ShopData } from '../model'
 export const shops: ShopData[] = [
   {
     name: 'Rivoli Almaty',
-    adress: 'almaty',
+    address: 'almaty',
     phone: ['+7 (727) 272 33 33', '+7 (727) 272 32 72', '+7 702 112 00 66'],
     insta: '',
     whatsapp: '',
@@ -16,7 +16,7 @@ export const shops: ShopData[] = [
   },
   {
     name: 'Rivoli Shymkent',
-    adress: 'shymkent',
+    address: 'shymkent',
     phone: ['+7 775 196 0270'],
     insta: '',
     whatsapp: '',

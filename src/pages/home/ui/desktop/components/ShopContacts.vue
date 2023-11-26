@@ -10,7 +10,7 @@
             :class="{ underline: activeCity === CityName.almaty }"
             @click="setActiveCity(CityName.almaty)"
           >
-            Алматы
+            {{ $t('home.contacts.almaty.city') }}
           </button>
           <button
             type="button"
@@ -18,7 +18,7 @@
             :class="{ underline: activeCity === CityName.shymkent }"
             @click="setActiveCity(CityName.shymkent)"
           >
-            Шымкент
+            {{ $t('home.contacts.shymkent.city') }}
           </button>
         </div>
         <div class="flex flex-col gap-5 font-montserrat">
@@ -26,12 +26,14 @@
             <img src="@/assets/icons/geo-pin.svg" width="23" height="23" alt="" />
             <p class="flex flex-col text-lg">
               <template v-if="activeCity === CityName.almaty">
-                <span> Казахстан, </span><span>050010, г. Алматы,</span><span> ул. Кунаева, 139, 2 этаж</span>
+                <span>{{ $t('home.contacts.kz') }}</span
+                ><span>{{ $t('home.contacts.almaty.address') }}</span
+                ><span>{{ $t('home.contacts.almaty.street') }}</span>
               </template>
               <template v-else-if="activeCity === CityName.shymkent">
-                <span>Казахстан,</span> <span>160000, г. Шымкент,</span>
-                <span>Тамерлановское шоссе 19</span>
-                <span>ТЦ "Аль-Фараби", бут. 122</span>
+                <span>{{ $t('home.contacts.kz') }}</span> <span>{{ $t('home.contacts.shymkent.address') }}</span>
+                <span>{{ $t('home.contacts.shymkent.street') }}</span>
+                <span>{{ $t('home.contacts.shymkent.building') }}</span>
               </template>
             </p>
           </div>

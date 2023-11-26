@@ -4,18 +4,20 @@
       <div class="flex items-start gap-3">
         <img src="@/assets/icons/calendar.svg" width="24" height="24" alt="" class="mt-2" />
         <p class="flex flex-col text-gray-400 text-lg">
-          <span>Пн-пт {{ shopData.workingHours.weekdays }}</span>
-          <span>Сб {{ shopData.workingHours.saturday }}</span>
-          <span v-if="shopData.workingHours.sunday">Вс выходной</span>
-          <span v-else>Вс выходной</span>
+          <span>{{ $t('contacts.card.weekdays') }} {{ shopData.workingHours.weekdays }}</span>
+          <span>{{ $t('contacts.card.sat') }} {{ shopData.workingHours.saturday }}</span>
+          <span v-if="shopData.workingHours.sunday"
+            >{{ $t('contacts.card.sun') }} {{ shopData.workingHours.sunday }}</span
+          >
+          <span v-else>{{ $t('contacts.card.sun') }} {{ $t('contacts.card.off') }}</span>
         </p>
       </div>
       <div class="flex items-start gap-3">
         <img src="@/assets/icons/geo-pin.svg" width="24" height="24" alt="" class="mt-2" />
         <p class="flex flex-col text-gray-400 text-lg">
-          <span>Казахстан,</span>
-          <span>050010, г. Алматы,</span>
-          <span>ул. Кунаева, 139, 2 этаж</span>
+          <span>{{ $t('contacts.card.kz') }}</span>
+          <span>{{ $t(`contacts.card.address.${shopData.geo}.city`) }}</span>
+          <span>{{ $t(`contacts.card.address.${shopData.geo}.street`) }}</span>
         </p>
       </div>
       <div class="flex items-start gap-3">
@@ -42,9 +44,9 @@
       </div>
     </div>
     <div class="w-full">
-      <img v-if="shopData.adress === 'almaty'" src="@/assets/maps/almaty-geo.png" class="h-full object-cover" alt="" />
+      <img v-if="shopData.address === 'almaty'" src="@/assets/maps/almaty-geo.png" class="h-full object-cover" alt="" />
       <img
-        v-else-if="shopData.adress === 'shymkent'"
+        v-else-if="shopData.address === 'shymkent'"
         src="@/assets/maps/shymkent-geo.png"
         class="h-full object-cover"
         alt=""

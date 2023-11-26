@@ -2,7 +2,7 @@
   <section class="flex flex-col items-center gap-24 font-montserrat">
     <NewsArticle :news-details="currentArticle" />
     <div v-if="moreArticles.length" class="flex flex-col gap-12">
-      <h6 class="text-semibold text-2xl">Читайте также:</h6>
+      <h6 class="text-semibold text-2xl">{{ $t('news.readMore') }}</h6>
       <div class="flex flex-col gap-16">
         <NewsCard v-for="item in moreArticles" :key="`read-more-news-${item.id}`" :news-details="item" />
       </div>

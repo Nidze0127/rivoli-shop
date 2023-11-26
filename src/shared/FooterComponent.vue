@@ -2,7 +2,7 @@
   <footer class="flex flex-col items-center gap-12 py-12 self-center w-full border-t border-black">
     <RouterLink to="/" class="flex flex-col items-center gap-5">
       <img src="@/assets/footer-logo.svg" alt="" />
-      <p class="uppercase font-medium font-montserrat">Галерея уюта и комфорта</p>
+      <p class="uppercase font-medium font-montserrat">{{ $t('footer.title') }}</p>
     </RouterLink>
     <NavLinks />
     <div class="flex gap-3">

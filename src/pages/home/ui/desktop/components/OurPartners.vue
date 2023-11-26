@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col items-center mt-[120px] px-12">
-    <h4 class="mb-[90px] uppercase font-cormorant text-[60px] font-semibold">Наши партнёры</h4>
+    <h4 class="mb-[90px] uppercase font-cormorant text-[60px] font-semibold">{{ $t('home.partners') }}</h4>
     <div class="flex items-center justify-between w-full">
       <img src="@/assets/partner-1.png" alt="" width="100" height="70" />
       <img src="@/assets/partner-2.png" alt="" width="100" height="70" />

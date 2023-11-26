@@ -1,7 +1,7 @@
 <template>
   <div class="relative flex flex-col items-center pt-[246px]">
     <img src="@/assets/logo-back.svg" class="absolute top-0 -right-[200px]" alt="" />
-    <h4 class="text-[60px] uppercase font-semibold font-cormorant">галерея</h4>
+    <h4 class="text-[60px] uppercase font-semibold font-cormorant">{{ $t('home.gallery') }}</h4>
     <div class="grid grid-cols-5 items-center gap-8 px-16 mt-[120px]">
       <div class="flex flex-col items-center gap-6 col-span-2">
         <div class="flex flex-col gap-4">
