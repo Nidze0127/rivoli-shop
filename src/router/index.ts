@@ -6,7 +6,8 @@ import {
   NewsListDesktop,
   NewsMainDesktop,
   NewsDetailsDesktop,
-  ContactsDesktop
+  ContactsDesktop,
+  GalleryDesktop
 } from '@/pages'
 
 const router = createRouter({
@@ -43,6 +44,11 @@ const router = createRouter({
       path: '/contacts',
       name: 'contacts',
       component: ContactsDesktop
+    },
+    {
+      path: '/gallery',
+      name: 'gallery',
+      component: GalleryDesktop
     },
     {
       path: '/:pathMatch(.*)*',

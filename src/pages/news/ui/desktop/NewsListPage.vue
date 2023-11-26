@@ -10,6 +10,7 @@
 </template>
 
 <script setup lang="ts">
+import { PageLink } from '@/shared'
 import { newsCollection } from '../../config'
 import { NewsCard } from './components'
 </script>

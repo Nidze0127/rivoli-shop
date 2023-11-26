@@ -21,15 +21,13 @@
           <li>подобрать текстиль, освещение, кухонные принадлежности и другие предметы декора</li>
           <li>оформить заказ на мебель среднего и люкс класса</li>
         </ul>
-        <a href="" class="flex gap-1 w-fit mt-6">
-          <span class="uppercase">Подробнее</span>
-          <img src="@/assets/link-arrow.svg" width="12" height="6" class="mt-1" alt="" />
-        </a>
+        <PageLink :route="{ name: 'gallery' }" :text="$t('pageLink.details')" has-margin />
       </div>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
+import { PageLink } from '@/shared'
 import ImageCarousel from './ImageCarousel.vue'
 </script>

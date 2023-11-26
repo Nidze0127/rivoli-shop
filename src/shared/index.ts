@@ -1,4 +1,5 @@
 import HeaderComponent from './HeaderComponent.vue'
 import FooterComponent from './FooterComponent.vue'
+import PageLink from './PageLink.vue'
 
-export { HeaderComponent, FooterComponent }
+export { HeaderComponent, FooterComponent, PageLink }

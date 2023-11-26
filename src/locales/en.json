@@ -5,5 +5,11 @@
         "news": "News",
         "partners": "Partners",
         "contacts": "Contacts"
+    },
+    "pageLink": {
+        "gallery": "Перейти в галерею",
+        "details": "Подробнее",
+        "news": "Перейти в раздел новости",
+        "readDetails": "Читать подробнее"
     }
 }

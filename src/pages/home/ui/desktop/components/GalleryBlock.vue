@@ -15,9 +15,10 @@
         <img src="@/assets/pre-gallery-3.png" width="716" height="716" alt="" />
       </div>
     </div>
-    <a href="" class="flex gap-1 w-fit mt-12">
-      <span class="uppercase">перейти в галерею</span>
-      <img src="@/assets/link-arrow.svg" width="12" height="6" class="mt-1" alt="" />
-    </a>
+    <PageLink :route="{ name: 'gallery' }" :text="$t('pageLink.gallery')" has-margin />
   </div>
 </template>
+
+<script setup lang="ts">
+import { PageLink } from '@/shared'
+</script>

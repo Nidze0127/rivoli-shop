@@ -5,10 +5,11 @@
       <div class="flex flex-col gap-6">
         <h6 class="text-gray-400 text-2xl font-semibold">{{ newsDetails.title }}</h6>
         <p class="text-gray-400 text-lg">{{ newsDetails.shortDesc }}</p>
-        <RouterLink :to="{ name: 'news-details', params: { id: newsDetails.id } }" class="flex gap-1 w-fit">
-          <span class="uppercase font-montserrat">читать подробнее</span>
-          <img src="@/assets/link-arrow.svg" width="12" height="6" class="mt-1" alt="" />
-        </RouterLink>
+        <PageLink
+          :route="{ name: 'news-details', params: { id: newsDetails.id } }"
+          :text="$t('pageLink.readDetails')"
+          has-margin
+        />
       </div>
     </div>
     <div class="h-full w-full">
@@ -19,7 +20,7 @@
 
 <script setup lang="ts">
 import { computed } from 'vue'
-import { RouterLink } from 'vue-router'
+import { PageLink } from '@/shared'
 import type { NewsDetails } from '../../../model'
 
 const props = defineProps<{

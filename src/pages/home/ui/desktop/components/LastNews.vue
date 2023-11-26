@@ -16,15 +16,13 @@
           точки. Они помогают реализовать планы и мечты. Соответственно, в противовес им существуют “слабые” зоны,
           где...
         </p>
-        <a href="" class="flex gap-1 w-fit">
-          <span class="uppercase">читать подробнее</span>
-          <img src="@/assets/link-arrow.svg" width="12" height="6" class="mt-1" alt="" />
-        </a>
+        <PageLink :route="{ name: 'news' }" :text="$t('pageLink.readDetails')" />
       </div>
     </div>
-    <a href="" class="flex gap-1 w-fit mt-[70px]">
-      <span class="uppercase">перейти в раздел новости</span>
-      <img src="@/assets/link-arrow.svg" width="12" height="6" class="mt-1" alt="" />
-    </a>
+    <PageLink :route="{ name: 'news' }" :text="$t('pageLink.news')" has-margin />
   </div>
 </template>
+
+<script setup lang="ts">
+import { PageLink } from '@/shared'
+</script>

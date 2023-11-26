@@ -42,13 +42,10 @@
     <p class="mt-24 w-[360px] font-cormorant text-[64px] font-bold text-center leading-[70px]">
       Взгляните, что мы имеем
     </p>
-    <RouterLink to="home" class="flex gap-1 w-fit mt-6">
-      <span class="uppercase font-montserrat">перейти в галерею</span>
-      <img src="@/assets/link-arrow.svg" width="12" height="6" class="mt-1" alt="" />
-    </RouterLink>
+    <PageLink :route="{ name: 'gallery' }" :text="$t('pageLink.gallery')" has-margin />
   </main>
 </template>
 
 <script setup lang="ts">
-import { RouterLink } from 'vue-router'
+import { PageLink } from '@/shared'
 </script>
