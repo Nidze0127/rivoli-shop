@@ -7,7 +7,8 @@
       </RouterLink>
       <NavLinks />
     </div>
-    <div class="flex items-center gap-[210px]">
+    <div class="flex items-center gap-14">
+      <LangSelector />
       <div class="flex items-center gap-3">
         <div class="p-[6px] border border-green-200">
           <img src="@/assets/icons/instagram.svg" width="16" height="16" alt="Instagram link" />
@@ -25,6 +26,7 @@
 import { computed } from 'vue'
 import { useRoute, RouterLink } from 'vue-router'
 import NavLinks from './NavLinks.vue'
+import LangSelector from './LangSelector.vue'
 
 const route = useRoute()
 
