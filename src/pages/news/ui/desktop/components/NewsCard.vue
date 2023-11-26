@@ -6,8 +6,8 @@
     <div class="flex flex-col gap-4" :class="{ 'order-last': isReversed }">
       <span class="text-gray-400 text-lg">{{ newsDetails.date }}</span>
       <div class="flex flex-col gap-6">
-        <h6 class="text-gray-400 text-2xl font-semibold">{{ newsDetails.title }}</h6>
-        <p class="text-gray-400 text-lg">{{ newsDetails.shortDesc }}</p>
+        <h6 class="text-gray-400 text-2xl font-semibold">{{ newsDetails[locale].title }}</h6>
+        <p class="text-gray-400 text-lg">{{ newsDetails[locale].shortDesc }}</p>
         <PageLink
           :route="{ name: 'news-details', params: { id: newsDetails.id } }"
           :text="$t('pageLink.readDetails')"
@@ -23,8 +23,11 @@
 
 <script setup lang="ts">
 import { computed } from 'vue'
+import { useI18n } from 'vue-i18n'
 import { PageLink } from '@/shared'
 import type { NewsDetails } from '../../../model'
+
+const { locale } = useI18n()
 
 const props = defineProps<{
   newsDetails: NewsDetails
