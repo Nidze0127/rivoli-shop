@@ -18,6 +18,7 @@
           <span>{{ $t('contacts.card.kz') }}</span>
           <span>{{ $t(`contacts.card.address.${shopData.geo}.city`) }}</span>
           <span>{{ $t(`contacts.card.address.${shopData.geo}.street`) }}</span>
+          <span>{{ $t(`contacts.card.address.${shopData.geo}.building`) }}</span>
         </p>
       </div>
       <div class="flex items-start gap-3">
