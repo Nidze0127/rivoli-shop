@@ -1,5 +1,5 @@
 <template>
-  <nav class="flex items-center gap-10 uppercase transition">
+  <nav class="flex flex-col items-center gap-4 lg:gap-10 uppercase transition lg:flex-row">
     <RouterLink to="/about-us" class="hover:text-green-100 hover:underline hover:duration-300">{{
       $t('navLinks.about')
     }}</RouterLink>
@@ -19,6 +19,5 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
 import { RouterLink } from 'vue-router'
 </script>
