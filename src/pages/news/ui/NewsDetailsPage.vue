@@ -13,7 +13,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { useRoute } from 'vue-router'
-import { newsCollection, emptyArticle } from '../../config'
+import { newsCollection, emptyArticle } from '../config'
 import { NewsCard, NewsArticle } from './components'
 
 const route = useRoute()
