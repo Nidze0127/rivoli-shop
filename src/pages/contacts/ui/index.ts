@@ -1,1 +1,1 @@
-export { ContactsPage as ContactsDesktop } from './desktop'
+export { default as ContactsPage } from './ContactsPage.vue'

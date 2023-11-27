@@ -11,9 +11,9 @@
 
 <script setup lang="ts">
 import { ref, computed } from 'vue'
-import { newsCollection } from '../../config'
+import { newsCollection } from '../config'
 import { NewsCard } from './components'
-import type { NewsDetails } from '../../model'
+import type { NewsDetails } from '../model'
 
 const visibleNews = ref<NewsDetails[]>(newsCollection.slice(0, 4))
 

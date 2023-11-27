@@ -1,1 +1,1 @@
-export { GalleryDesktop } from './ui'
+export { GalleryPage } from './ui'

@@ -1,1 +1,1 @@
-export { NewsDetailsDesktop, NewsListDesktop, NewsMainDesktop } from './ui'
+export { NewsDetailsPage, NewsListPage, NewsMainPage } from './ui'

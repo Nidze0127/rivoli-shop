@@ -6,6 +6,6 @@
 </template>
 
 <script setup lang="ts">
-import { shops } from '../../config'
+import { shops } from '../config'
 import { ContactCard } from './components'
 </script>

@@ -9,5 +9,5 @@
 <script setup lang="ts">
 import { PageLink } from '@/shared'
 import { newsCollection } from '@/pages/news/config'
-import { NewsCard } from '@/pages/news/ui/desktop/components'
+import { NewsCard } from '@/pages/news/ui/components'
 </script>

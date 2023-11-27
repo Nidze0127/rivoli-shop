@@ -1,13 +1,13 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import {
-  HomeDesktop,
-  AboutUsDesktop,
-  NotFoundDesktop,
-  NewsListDesktop,
-  NewsMainDesktop,
-  NewsDetailsDesktop,
-  ContactsDesktop,
-  GalleryDesktop
+  HomePage,
+  AboutUsPage,
+  NotFoundPage,
+  NewsListPage,
+  NewsMainPage,
+  NewsDetailsPage,
+  ContactsPage,
+  GalleryPage
 } from '@/pages'
 
 const router = createRouter({
@@ -16,44 +16,44 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: HomeDesktop
+      component: HomePage
     },
     {
       path: '/about-us',
       name: 'about-us',
-      component: AboutUsDesktop
+      component: AboutUsPage
     },
     {
       path: '/news',
       name: 'news',
-      component: NewsMainDesktop,
+      component: NewsMainPage,
       children: [
         {
           path: 'list',
           name: 'news-list',
-          component: NewsListDesktop
+          component: NewsListPage
         },
         {
           path: ':id',
           name: 'news-details',
-          component: NewsDetailsDesktop
+          component: NewsDetailsPage
         }
       ]
     },
     {
       path: '/contacts',
       name: 'contacts',
-      component: ContactsDesktop
+      component: ContactsPage
     },
     {
       path: '/gallery',
       name: 'gallery',
-      component: GalleryDesktop
+      component: GalleryPage
     },
     {
       path: '/:pathMatch(.*)*',
       name: 'not-found',
-      component: NotFoundDesktop
+      component: NotFoundPage
     }
   ],
   scrollBehavior(to, from, savedPosition) {

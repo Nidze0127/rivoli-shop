@@ -1,1 +1,1 @@
-export { HomePage as HomeDesktop } from './desktop'
+export { default as HomePage } from './HomePage.vue'

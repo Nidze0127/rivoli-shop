@@ -57,7 +57,7 @@
 </template>
 
 <script setup lang="ts">
-import type { ShopData } from '../../../model'
+import type { ShopData } from '../../model'
 
 defineProps<{
   shopData: ShopData

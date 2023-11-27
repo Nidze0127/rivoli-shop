@@ -1,1 +1,1 @@
-export { NotFoundPage as NotFoundDesktop } from './desktop'
+export { default as NotFoundPage } from './NotFoundPage.vue'
