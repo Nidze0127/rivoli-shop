@@ -87,5 +87,9 @@
     },
     "footer": {
         "title": "Gallery of coziness and comfort"
+    },
+    "gallery": {
+        "title": "Gallery",
+        "photos": "All photos were taken in our salon"
     }
 }
