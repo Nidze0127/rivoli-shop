@@ -20,7 +20,7 @@
       </div>
     </div>
   </header>
-  <header class="flex items-center justify-between py-3 w-full border-b border-black">
+  <header class="flex items-center justify-between py-3 w-full border-b border-black lg:hidden">
     <button type="button" class="invisible">
       <img src="@/assets/icons/burger-menu.svg" alt="" />
     </button>
