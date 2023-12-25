@@ -1,5 +1,14 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import {
+  HomePage,
+  AboutUsPage,
+  NotFoundPage,
+  NewsListPage,
+  NewsMainPage,
+  NewsDetailsPage,
+  ContactsPage,
+  GalleryPage
+} from '@/pages'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -7,17 +16,49 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: HomeView
+      component: HomePage
     },
     {
-      path: '/about',
-      name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/AboutView.vue')
+      path: '/about-us',
+      name: 'about-us',
+      component: AboutUsPage
+    },
+    {
+      path: '/news',
+      name: 'news',
+      component: NewsMainPage,
+      children: [
+        {
+          path: 'list',
+          name: 'news-list',
+          component: NewsListPage
+        },
+        {
+          path: ':id',
+          name: 'news-details',
+          component: NewsDetailsPage
+        }
+      ]
+    },
+    {
+      path: '/contacts',
+      name: 'contacts',
+      component: ContactsPage
+    },
+    {
+      path: '/gallery',
+      name: 'gallery',
+      component: GalleryPage
+    },
+    {
+      path: '/:pathMatch(.*)*',
+      name: 'not-found',
+      component: NotFoundPage
     }
-  ]
+  ],
+  scrollBehavior(to, from, savedPosition) {
+    return { top: 0 }
+  }
 })
 
 export default router

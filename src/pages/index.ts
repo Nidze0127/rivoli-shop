@@ -1,0 +1,6 @@
+export { ContactsPage } from './contacts'
+export { HomePage } from './home'
+export { AboutUsPage } from './about-us'
+export { NewsDetailsPage, NewsListPage, NewsMainPage } from './news'
+export { NotFoundPage } from './not-found'
+export { GalleryPage } from './gallery'

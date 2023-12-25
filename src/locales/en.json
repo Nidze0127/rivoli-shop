@@ -1,0 +1,95 @@
+{
+    "navLinks": {
+        "about": "About us",
+        "gallery": "Gallery",
+        "news": "News",
+        "partners": "Partners",
+        "contacts": "Contacts"
+    },
+    "pageLink": {
+        "gallery": "Go to gallery",
+        "details": "More details",
+        "news": "Go to news section",
+        "readDetails": "Read more"
+    },
+    "aboutUs": {
+        "title": "About us",
+        "desc": "Exceptional furniture and interior items from famous world manufacturers",
+        "help": {
+            "title": "We will help you to:",
+            "create": "create a special project for your interior",
+            "items": "choose textiles, lighting, kitchen utensils and other decorative items",
+            "order": "place an order for middle and luxury class furniture"
+        },
+        "check": "Look what we have"
+    },
+    "contacts": {
+        "title": "Contacts",
+        "card": {
+            "weekdays": "Mon-Fri",
+            "sat": "Sat",
+            "sun": "Sun",
+            "off": "day off",
+            "kz": "Kazakhstan,",
+            "address": {
+                "ala": {
+                    "city": "050010, Almaty city,",
+                    "street": "Kunaev st., 139, 2nd floor"
+                },
+                "shym": {
+                    "city": "160000, Shymkent,",
+                    "street": "Tamerlan highway 19",
+                    "building": "Al-Farabi shopping center, boutique 122"
+                }
+            }
+        }
+    },
+    "home": {
+        "about": {
+            "gallery": "Gallery of",
+            "cozy": "Coziness and",
+            "comfort": "comfort",
+            "outstanding": "Exceptional furniture and interior items from famous world manufacturers",
+            "help": {
+                "title": "We will help you to:",
+                "create": "create a special project for your interior",
+                "items": "choose textiles, lighting, kitchen utensils and other decorative items",
+                "order": "place an order for middle and luxury class furniture"
+            }
+        },
+        "gallery": "Gallery",
+        "partners": "Our partners",
+        "contacts": {
+            "title": "Contacts",
+            "kz": "Kazakhstan,",
+            "almaty": {
+                "city": "Almaty",
+                "address": "050010, Almaty city,",
+                "street": "Kunaev st., 139, 2nd floor"
+            },
+            "shymkent": {
+                "city": "Shymkent",
+                "address": "160000, Shymkent,",
+                "street": "Tamerlan highway 19",
+                "building": "Al-Farabi shopping center, boutique 122"
+            }
+        },
+        "news": "News"
+    },
+    "news": {
+        "title": "News",
+        "readMore": "Read also:",
+        "loadMore": "Load more"
+    },
+    "notFound": {
+        "title": "Sorry, page not found.",
+        "goHome": "go to home page"
+    },
+    "footer": {
+        "title": "Gallery of coziness and comfort"
+    },
+    "gallery": {
+        "title": "Gallery",
+        "photos": "All photos were taken in our salon"
+    }
+}
