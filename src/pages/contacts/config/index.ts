@@ -11,7 +11,7 @@ export const shops: ShopData[] = [
       weekdays: '11:00-20:00',
       saturday: '11:00-17:00'
     },
-    geo: 'almatyGeo',
+    geo: 'almaty',
     warning: 'Все звонки и сообщения обрабатываться только в рабочее время'
   },
   {
@@ -24,6 +24,6 @@ export const shops: ShopData[] = [
       weekdays: '11:00-20:00',
       saturday: '11:00-17:00'
     },
-    geo: 'shymkentGeo'
+    geo: 'shymkent'
   }
 ]

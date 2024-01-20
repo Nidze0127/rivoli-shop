@@ -41,7 +41,7 @@
       </div>
       <div v-if="shopData.warning" class="flex items-start gap-3">
         <img src="@/assets/icons/alert.svg" width="24" height="24" alt="" class="mt-2" />
-        <p class="flex flex-col text-gray-400 text-lg">{{ shopData.warning }}</p>
+        <p class="flex flex-col text-gray-400 text-lg">{{ $t('contacts.card.warning') }}</p>
       </div>
     </div>
     <div class="w-full">
