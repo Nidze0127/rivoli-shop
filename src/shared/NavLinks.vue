@@ -9,9 +9,6 @@
     <RouterLink to="/news/list" class="hover:text-green-100 hover:underline hover:duration-300">{{
       $t('navLinks.news')
     }}</RouterLink>
-    <RouterLink to="/partners" class="hover:text-green-100 hover:underline hover:duration-300">{{
-      $t('navLinks.partners')
-    }}</RouterLink>
     <RouterLink to="/contacts" class="hover:text-green-100 hover:underline hover:duration-300">{{
       $t('navLinks.contacts')
     }}</RouterLink>
