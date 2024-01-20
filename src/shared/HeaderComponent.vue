@@ -3,7 +3,7 @@
     <div class="flex items-center gap-24">
       <RouterLink to="/">
         <img v-if="isLogoBlack" src="@/assets/rivoli-logo-black.svg" width="161" height="53" alt="Rivoli Logo" />
-        <img v-else src="@/assets/rivoli-logo.svg" width="161" height="53" alt="Rivoli Logo" />
+        <img v-else src="@/assets/rivoli-logo-3.svg" width="161" height="53" alt="Rivoli Logo" />
       </RouterLink>
       <NavLinks />
     </div>
