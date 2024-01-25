@@ -8,5 +8,15 @@
       "path": "./tsconfig.app.json"
     }
   ],
-  "no-unref": "off"
+  "no-unref": "off",
+  
+    "compilerOptions": {
+      "module": "es2022",
+      "moduleResolution": "Node",
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["src/*"],
+      },
+    },
+    "include": ["src"]
 }
