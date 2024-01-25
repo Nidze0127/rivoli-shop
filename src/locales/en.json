@@ -32,16 +32,18 @@
             "off": "day off",
             "kz": "Kazakhstan,",
             "address": {
-                "ala": {
+                "almaty": {
                     "city": "050010, Almaty city,",
-                    "street": "Kunaev st., 139, 2nd floor"
+                    "street": "Kunaev st., 139, 2nd floor",
+                    "building": ""
                 },
-                "shym": {
+                "shymkent": {
                     "city": "160000, Shymkent,",
                     "street": "Tamerlan highway 19",
                     "building": "Al-Farabi shopping center, boutique 122"
                 }
-            }
+            },
+            "warning": "All calls and messages will be processed only during business hours"
         }
     },
     "home": {
