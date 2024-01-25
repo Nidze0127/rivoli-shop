@@ -11,8 +11,15 @@
 </template>
 
 <script setup lang="ts">
+const isProd = import.meta.env.PROD
+
 const photoSrc = (img: number) => {
-  const path = new URL('@/assets/img/gallery', import.meta.url).href
+  let path
+  if (isProd) {
+    path = new URL('./assets/img/gallery', import.meta.url).href
+  } else {
+    path = new URL('@/assets/img/gallery', import.meta.url).href
+  }
   return `${path}/gallery-img-${img}.jpg`
 }
 </script>
