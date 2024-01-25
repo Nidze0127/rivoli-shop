@@ -12,7 +12,7 @@
 
 <script setup lang="ts">
 const photoSrc = (img: number) => {
-  const path = new URL('@/assets/img/gallery', import.meta.url).href
+  const path = new URL('/src/assets/img/gallery', import.meta.url)
   return `${path}/gallery-img-${img}.jpg`
 }
 </script>
