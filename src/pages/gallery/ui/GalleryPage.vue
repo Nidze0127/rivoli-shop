@@ -16,7 +16,7 @@ const isProd = import.meta.env.PROD
 const photoSrc = (img: number) => {
   let path
   if (isProd) {
-    path = new URL('./assets/img/gallery', import.meta.url).href
+    path = new URL('/src/assets/img/gallery', import.meta.url).href
   } else {
     path = new URL('@/assets/img/gallery', import.meta.url).href
   }
