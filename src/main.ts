@@ -10,8 +10,8 @@ import messages from '@intlify/unplugin-vue-i18n/messages'
 const i18n = createI18n({
   legacy: false,
   globalInjection: true,
-  locale: 'en',
-  fallbackLocale: 'en',
+  locale: 'ru',
+  fallbackLocale: 'ru',
   availableLocales: ['en', 'ru', 'kz'],
   messages: messages
 })
