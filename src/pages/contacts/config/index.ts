@@ -12,7 +12,7 @@ export const shops: ShopData[] = [
     },
     geo: 'almaty',
     warning: 'Все звонки и сообщения обрабатываться только в рабочее время',
-    insta: '@rivoli_gallery.shym'
+    insta: 'https://www.instagram.com/rivoli.gallery/'
   },
   {
     name: 'Rivoli Shymkent',
@@ -24,6 +24,6 @@ export const shops: ShopData[] = [
       saturday: '11:00-17:00'
     },
     geo: 'shymkent',
-    insta: '@rivoli_gallery.shym'
+    insta: 'https://www.instagram.com/rivoli_gallery.shym/'
   }
 ]
