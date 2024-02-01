@@ -32,12 +32,12 @@
         <p class="flex flex-col text-gray-400 text-lg">info@rivoli.kz</p>
       </div>
       <div class="flex gap-3 pl-9">
-        <div class="p-[6px] border border-green-200">
+        <a :href="shopData.insta" class="p-[6px] border border-green-200">
           <img src="@/assets/icons/instagram.svg" width="16" height="16" alt="Instagram link" />
-        </div>
-        <div class="p-[6px] border border-green-200">
+        </a>
+        <!-- <div class="p-[6px] border border-green-200">
           <img src="@/assets/icons/whatsapp.svg" width="16" height="16" alt="Whatsapp link" />
-        </div>
+        </div> -->
       </div>
       <div v-if="shopData.warning" class="flex items-start gap-3">
         <img src="@/assets/icons/alert.svg" width="24" height="24" alt="" class="mt-2" />
