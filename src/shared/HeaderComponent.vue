@@ -10,7 +10,7 @@
     <div class="flex items-center gap-14">
       <LangSelector />
       <div class="flex items-center gap-3">
-        <a href="https://www.instagram.com/rivoli.gallery/" class="p-[6px] border border-green-200">
+        <a href="https://www.instagram.com/rivoli.gallery/" target="_blank" class="p-[6px] border border-green-200">
           <img src="@/assets/icons/instagram.svg" width="16" height="16" alt="Instagram link" />
         </a>
         <!-- <div class="p-[6px] border border-green-200">

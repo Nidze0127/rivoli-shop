@@ -32,7 +32,7 @@
         <p class="flex flex-col text-gray-400 text-lg">info@rivoli.kz</p>
       </div>
       <div class="flex gap-3 pl-9">
-        <a :href="shopData.insta" class="p-[6px] border border-green-200">
+        <a :href="shopData.insta" target="_blank" class="p-[6px] border border-green-200">
           <img src="@/assets/icons/instagram.svg" width="16" height="16" alt="Instagram link" />
         </a>
         <!-- <div class="p-[6px] border border-green-200">

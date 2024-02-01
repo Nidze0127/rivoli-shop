@@ -6,12 +6,12 @@
     </RouterLink>
     <NavLinks />
     <div class="flex gap-3">
-      <div class="p-[6px] border border-green-200">
+      <a href="https://www.instagram.com/rivoli.gallery/" target="_blank" class="p-[6px] border border-green-200">
         <img src="@/assets/icons/instagram.svg" width="16" height="16" alt="Instagram link" />
-      </div>
-      <div class="p-[6px] border border-green-200">
+      </a>
+      <!-- <div class="p-[6px] border border-green-200">
         <img src="@/assets/icons/whatsapp.svg" width="16" height="16" alt="Whatsapp link" />
-      </div>
+      </div> -->
     </div>
   </footer>
 </template>

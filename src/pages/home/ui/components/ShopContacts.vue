@@ -57,6 +57,7 @@
           <a
             v-if="activeCity === CityName.almaty"
             href="https://www.instagram.com/rivoli.gallery/"
+            target="_blank"
             class="p-[6px] border border-green-200"
           >
             <img src="@/assets/icons/instagram.svg" width="16" height="16" alt="Instagram link" />
@@ -64,6 +65,7 @@
           <a
             v-else-if="activeCity === CityName.shymkent"
             href="https://www.instagram.com/rivoli_gallery.shym/"
+            target="_blank"
             class="p-[6px] border border-green-200"
           >
             <img src="@/assets/icons/instagram.svg" width="16" height="16" alt="Instagram link" />
