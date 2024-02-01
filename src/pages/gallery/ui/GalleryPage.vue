@@ -11,8 +11,6 @@
 </template>
 
 <script setup lang="ts">
-const isProd = import.meta.env.PROD
-
 const photoSrc = (img: number) => {
   const path = new URL('../../../../public/gallery', import.meta.url).href
 

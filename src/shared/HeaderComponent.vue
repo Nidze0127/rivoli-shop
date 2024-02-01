@@ -10,13 +10,13 @@
     <div class="flex items-center gap-14">
       <LangSelector />
       <div class="flex items-center gap-3">
-        <div class="p-[6px] border border-green-200">
+        <a href="https://www.instagram.com/rivoli.gallery/" target="_blank" class="p-[6px] border border-green-200">
           <img src="@/assets/icons/instagram.svg" width="16" height="16" alt="Instagram link" />
-        </div>
-        <div class="p-[6px] border border-green-200">
+        </a>
+        <!-- <div class="p-[6px] border border-green-200">
           <img src="@/assets/icons/whatsapp.svg" width="16" height="16" alt="Whatsapp link" />
-        </div>
-        <p>+7 702 112 00 66</p>
+        </div> -->
+        <!-- <p>+7 702 112 00 66</p> -->
       </div>
     </div>
   </header>

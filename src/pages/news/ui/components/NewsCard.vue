@@ -35,7 +35,7 @@ const props = defineProps<{
 }>()
 
 const src = computed(() => {
-  const path = new URL('@/assets/img/news', import.meta.url)
+  const path = new URL('../../../../../public/news', import.meta.url)
   return `${path}/${props.newsDetails.img}`
 })
 </script>

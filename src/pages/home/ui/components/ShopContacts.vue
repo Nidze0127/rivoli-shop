@@ -41,9 +41,11 @@
             <img src="@/assets/icons/phone.svg" width="23" height="23" alt="" />
             <p class="flex flex-col text-lg">
               <template v-if="activeCity === CityName.almaty">
-                <span> +7 (727) 272 33 33 </span> <span>+7 (727) 272 32 72</span> <span>+7 702 112 00 66</span>
+                <span> +7 (727) 272 33 33 </span> <span>+7 (727) 272 32 72</span>
               </template>
-              <span v-else-if="activeCity === CityName.shymkent">+7 775 196 0270</span>
+              <template v-else-if="activeCity === CityName.shymkent">
+                <span>+7 775 196 0270</span> <span>+7‒707‒739‒04‒85</span>
+              </template>
             </p>
           </div>
           <div class="flex items-start gap-4">
@@ -52,12 +54,25 @@
           </div>
         </div>
         <div class="flex gap-3 pl-10">
-          <div class="p-[6px] border border-green-200">
+          <a
+            v-if="activeCity === CityName.almaty"
+            href="https://www.instagram.com/rivoli.gallery/"
+            target="_blank"
+            class="p-[6px] border border-green-200"
+          >
             <img src="@/assets/icons/instagram.svg" width="16" height="16" alt="Instagram link" />
-          </div>
-          <div class="p-[6px] border border-green-200">
+          </a>
+          <a
+            v-else-if="activeCity === CityName.shymkent"
+            href="https://www.instagram.com/rivoli_gallery.shym/"
+            target="_blank"
+            class="p-[6px] border border-green-200"
+          >
+            <img src="@/assets/icons/instagram.svg" width="16" height="16" alt="Instagram link" />
+          </a>
+          <!-- <div class="p-[6px] border border-green-200">
             <img src="@/assets/icons/whatsapp.svg" width="16" height="16" alt="Whatsapp link" />
-          </div>
+          </div> -->
         </div>
       </div>
       <img v-if="activeCity === CityName.almaty" src="@/assets/maps/almaty-geo.png" class="col-span-2" alt="" />

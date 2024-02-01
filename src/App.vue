@@ -15,4 +15,3 @@ const route = useRoute()
 
 const isFooterVisible = computed(() => route.name !== 'not-found')
 </script>
-./shared
