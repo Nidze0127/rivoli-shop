@@ -43,4 +43,13 @@ const [emblaNode] = emblaCarouselVue({ loop: true, containScroll: false }, [Auto
   width: 100%;
   object-fit: cover;
 }
+
+@media (max-width: 1024px) {
+  .embla__slide__img {
+    display: block;
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
 </style>

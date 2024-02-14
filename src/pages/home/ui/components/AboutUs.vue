@@ -31,11 +31,11 @@
   </div>
   <div class="flex lg:hidden flex-col gap-4">
     <div>
-      <p class="w-fit font-cormorant font-bold text-[55px] text-green-200 uppercase leading-[100px]">
+      <p class="w-fit font-cormorant font-bold text-[55px] text-green-200 uppercase leading-[80px]">
         {{ $t('home.about.gallery') }}
       </p>
-      <p class="w-fit font-cormorant font-bold text-[55px] uppercase leading-[100px]">{{ $t('home.about.cozy') }}</p>
-      <p class="w-fit font-cormorant font-bold text-[55px] uppercase leading-[100px]">
+      <p class="w-fit font-cormorant font-bold text-[55px] uppercase leading-[80px]">{{ $t('home.about.cozy') }}</p>
+      <p class="w-fit font-cormorant font-bold text-[55px] uppercase leading-[80px]">
         {{ $t('home.about.comfort') }}
       </p>
     </div>
