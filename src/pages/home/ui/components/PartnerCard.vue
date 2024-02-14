@@ -1,6 +1,7 @@
 <template>
   <a :href="partner.link" target="_blank">
-    <img :src="partnerImg" alt="" width="100" height="70" />
+    <img :src="partnerImg" alt="" width="100" height="70" class="hidden lg:block" />
+    <img :src="partnerImg" alt="" width="30" height="30" class="lg:hidden" />
   </a>
 </template>
 

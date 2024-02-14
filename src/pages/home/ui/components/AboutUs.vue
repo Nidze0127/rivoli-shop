@@ -40,12 +40,12 @@
       </p>
     </div>
     <ImageCarousel />
-    <div class="flex flex-col items-center gap-8 self-center">
-      <img src="@/assets/rivoli-gallery.jpg" alt="" />
-      <div class="flex flex-col">
+    <div class="flex flex-col items-center gap-8 self-center pt-16">
+      <img src="@/assets/rivoli-gallery.jpg" width="270" height="324" alt="" class="object-scale-down" />
+      <div class="flex flex-col items-center pt-6">
         <img src="@/assets/rivoli-logo-2.svg" width="192" height="63" alt="" />
         <p class="mt-10 font-montserrat text-xl uppercase">{{ $t('home.about.help.title') }}</p>
-        <ul class="mt-4 pl-4 w-[470px] list-disc font-montserrat text-gray-400">
+        <ul class="flex flex-col gap-6 px-8 mt-4 w-full font-montserrat text-gray-400 text-center">
           <li>{{ $t('home.about.help.create') }}</li>
           <li>{{ $t('home.about.help.items') }}</li>
           <li>{{ $t('home.about.help.order') }}</li>

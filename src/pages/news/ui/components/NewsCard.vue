@@ -1,6 +1,6 @@
 <template>
   <article
-    class="grid grid-cols-2 items-center gap-8 font-montserrat"
+    class="hidden lg:grid grid-cols-2 items-center gap-8 font-montserrat"
     :class="{ 'odd:mr-[200px] even:ml-[200px]': !isReversed }"
   >
     <div class="flex flex-col gap-4" :class="{ 'order-last': isReversed }">
@@ -17,6 +17,15 @@
     </div>
     <div class="h-full w-full">
       <img :src="src" alt="" class="h-full object-cover" />
+    </div>
+  </article>
+  <article class="flex lg:hidden flex-col items-center gap-5">
+    <img :src="src" alt="" class="h-full object-cover" />
+    <div class="flex flex-col gap-3">
+      <span class="text-gray-400 text-sm">{{ newsDetails.date }}</span>
+      <h6 class="text-gray-400 text-lg font-semibold">{{ newsDetails[locale].title }}</h6>
+      <p class="text-gray-400 text-sm">{{ newsDetails[locale].shortDesc }}</p>
+      <PageLink :route="{ name: 'news-details', params: { id: newsDetails.id } }" :text="$t('pageLink.readDetails')" />
     </div>
   </article>
 </template>

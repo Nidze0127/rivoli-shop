@@ -1,9 +1,15 @@
 <template>
   <div class="embla lg:mt-[90px]" ref="emblaNode">
     <div class="embla__container">
-      <div class="embla__slide"><img src="@/assets/swiper-1.jpg" height="560" alt="" class="embla__slide__img" /></div>
-      <div class="embla__slide"><img src="@/assets/swiper-2.jpg" height="560" alt="" class="embla__slide__img" /></div>
-      <div class="embla__slide"><img src="@/assets/swiper-3.jpg" height="560" alt="" class="embla__slide__img" /></div>
+      <div class="embla__slide">
+        <img src="@/assets/pre-gallery-1.png" height="560" alt="" class="embla__slide__img" />
+      </div>
+      <div class="embla__slide">
+        <img src="@/assets/pre-gallery-2.png" height="560" alt="" class="embla__slide__img" />
+      </div>
+      <div class="embla__slide">
+        <img src="@/assets/pre-gallery-3.png" height="560" alt="" class="embla__slide__img" />
+      </div>
     </div>
   </div>
 </template>
@@ -18,10 +24,10 @@ const [emblaNode] = emblaCarouselVue({ loop: true, containScroll: false }, [Auto
 <style scoped>
 .embla {
   --slide-spacing: 1rem;
-  --slide-size: 80%;
+  --slide-size: 90%;
   --slide-height: 560px;
-  padding: 1.6rem;
 }
+
 .embla__viewport {
   overflow: hidden;
 }
@@ -37,20 +43,8 @@ const [emblaNode] = emblaCarouselVue({ loop: true, containScroll: false }, [Auto
   padding-left: var(--slide-spacing);
   position: relative;
 }
-.embla__slide__img {
-  display: block;
-  height: 560px;
-  width: 100%;
-  object-fit: cover;
-}
 
 @media (max-width: 1024px) {
-  .embla {
-    --slide-spacing: 1rem;
-    --slide-size: 95%;
-    --slide-height: 560px;
-  }
-
   .embla__slide__img {
     display: block;
     height: 350px;
