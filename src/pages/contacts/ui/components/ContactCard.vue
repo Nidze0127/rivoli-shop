@@ -1,9 +1,9 @@
 <template>
-  <div class="flex gap-8 w-full font-montserrat">
-    <div class="flex flex-col gap-10 w-[400px]">
+  <div class="flex flex-col lg:flex-row gap-3 lg:gap-8 w-full font-montserrat">
+    <div class="flex flex-col gap-3 lg:gap-10 lg:w-[400px]">
       <div class="flex items-start gap-3">
         <img src="@/assets/icons/calendar.svg" width="24" height="24" alt="" class="mt-2" />
-        <p class="flex flex-col text-gray-400 text-lg">
+        <p class="flex flex-col text-gray-400 lg:text-lg">
           <span>{{ $t('contacts.card.weekdays') }} {{ shopData.workingHours.weekdays }}</span>
           <span>{{ $t('contacts.card.sat') }} {{ shopData.workingHours.saturday }}</span>
           <span v-if="shopData.workingHours.sunday"
@@ -14,7 +14,7 @@
       </div>
       <div class="flex items-start gap-3">
         <img src="@/assets/icons/geo-pin.svg" width="24" height="24" alt="" class="mt-2" />
-        <p class="flex flex-col text-gray-400 text-lg">
+        <p class="flex flex-col text-gray-400 lg:text-lg">
           <span>{{ $t('contacts.card.kz') }}</span>
           <span>{{ $t(`contacts.card.address.${shopData.geo}.city`) }}</span>
           <span>{{ $t(`contacts.card.address.${shopData.geo}.street`) }}</span>
@@ -23,13 +23,13 @@
       </div>
       <div class="flex items-start gap-3">
         <img src="@/assets/icons/phone.svg" width="24" height="24" alt="" class="mt-2" />
-        <p class="flex flex-col text-gray-400 text-lg">
+        <p class="flex flex-col text-gray-400 lg:text-lg">
           <span v-for="(number, index) in shopData.phone" :key="`phone-${index}`">{{ number }}</span>
         </p>
       </div>
       <div class="flex items-center gap-3">
         <img src="@/assets/icons/email.svg" width="24" height="24" alt="" />
-        <p class="flex flex-col text-gray-400 text-lg">info@rivoli.kz</p>
+        <p class="flex flex-col text-gray-400 lg:text-lg">info@rivoli.kz</p>
       </div>
       <div class="flex gap-3 pl-9">
         <a :href="shopData.insta" target="_blank" class="p-[6px] border border-green-200">
@@ -41,7 +41,7 @@
       </div>
       <div v-if="shopData.warning" class="flex items-start gap-3">
         <img src="@/assets/icons/alert.svg" width="24" height="24" alt="" class="mt-2" />
-        <p class="flex flex-col text-gray-400 text-lg">{{ $t('contacts.card.warning') }}</p>
+        <p class="flex flex-col text-gray-400 lg:text-lg">{{ $t('contacts.card.warning') }}</p>
       </div>
     </div>
     <div class="w-full">
