@@ -1,6 +1,6 @@
 <template>
-  <section class="flex flex-col items-center gap-[90px]">
-    <h1 class="font-cormorant font-bold text-[60px] uppercase text-center">{{ $t('news.title') }}</h1>
+  <section class="flex flex-col items-center gap-10 lg:gap-[90px]">
+    <h1 class="font-cormorant font-bold text-3xl lg:text-[60px] uppercase text-center">{{ $t('news.title') }}</h1>
     <NewsCard v-for="item in visibleNews" :key="`news-details-${item.id}`" :news-details="item" />
     <button v-if="isButtonVisible" type="button" class="flex gap-1 w-fit" @click="pushVisibleNews">
       <span class="uppercase font-montserrat">{{ $t('news.loadMore') }}</span>

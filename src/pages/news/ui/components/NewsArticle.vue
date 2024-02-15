@@ -1,12 +1,12 @@
 <template>
-  <article class="flex flex-col gap-4 px-[200px]">
-    <span class="text-gray-400 text-lg">{{ newsDetails.date }}</span>
-    <div class="flex flex-col gap-8">
-      <h6 class="text-gray-400 font-semibold text-[32px]">{{ newsDetails[locale].title }}</h6>
+  <article class="flex flex-col gap-4 lg:px-[200px]">
+    <span class="text-gray-400 lg:text-lg">{{ newsDetails.date }}</span>
+    <div class="flex flex-col gap-4 lg:gap-8">
+      <h6 class="text-gray-400 font-semibold text-xl lg:text-[32px]">{{ newsDetails[locale].title }}</h6>
       <div class="flex flex-col h-full w-full">
         <img :src="src" alt="" class="h-full object-cover self-center" />
       </div>
-      <p class="text-gray-400 text-lg">{{ newsDetails[locale].fullDesc }}</p>
+      <p class="text-gray-400 lg:text-lg">{{ newsDetails[locale].fullDesc }}</p>
     </div>
   </article>
 </template>

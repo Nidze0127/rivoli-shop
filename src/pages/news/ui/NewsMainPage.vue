@@ -1,5 +1,5 @@
 <template>
-  <main class="flex flex-col items-center py-[100px]">
+  <main class="flex flex-col items-center py-12 lg:py-[100px]">
     <RouterView />
   </main>
 </template>
