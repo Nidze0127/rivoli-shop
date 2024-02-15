@@ -36,16 +36,16 @@
         v-if="isMenuOpen"
         class="absolute top-[60px] left-0 flex flex-col items-center gap-6 w-full py-10 bg-white z-50"
       >
-        <NavLinks />
+        <NavLinks @onLinkClick="isMenuOpen = false" />
         <div class="flex items-center gap-3">
-          <div class="p-[6px] border border-green-200">
+          <a href="https://www.instagram.com/rivoli.gallery/" target="_blank" class="p-[6px] border border-green-200">
             <img src="@/assets/icons/instagram.svg" width="16" height="16" alt="Instagram link" />
-          </div>
-          <div class="p-[6px] border border-green-200">
+          </a>
+          <!-- <div class="p-[6px] border border-green-200">
             <img src="@/assets/icons/whatsapp.svg" width="16" height="16" alt="Whatsapp link" />
-          </div>
+          </div> -->
         </div>
-        <p>+7 702 112 00 66</p>
+        <!-- <p>+7 702 112 00 66</p> -->
       </div>
     </transition>
   </header>
