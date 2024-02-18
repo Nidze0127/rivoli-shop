@@ -13,6 +13,9 @@
         <a href="https://www.instagram.com/rivoli.gallery/" target="_blank" class="p-[6px] border border-green-200">
           <img src="@/assets/icons/instagram.svg" width="16" height="16" alt="Instagram link" />
         </a>
+        <a aria-label="Chat on WhatsApp" href="https://wa.me/77021120066" class="p-[6px] border border-green-200"
+          ><img alt="Chat on WhatsApp" src="@/assets/icons/whatsapp.svg"
+        /></a>
         <!-- <div class="p-[6px] border border-green-200">
           <img src="@/assets/icons/whatsapp.svg" width="16" height="16" alt="Whatsapp link" />
         </div> -->
@@ -41,9 +44,9 @@
           <a href="https://www.instagram.com/rivoli.gallery/" target="_blank" class="p-[6px] border border-green-200">
             <img src="@/assets/icons/instagram.svg" width="16" height="16" alt="Instagram link" />
           </a>
-          <!-- <div class="p-[6px] border border-green-200">
-            <img src="@/assets/icons/whatsapp.svg" width="16" height="16" alt="Whatsapp link" />
-          </div> -->
+          <a aria-label="Chat on WhatsApp" href="https://wa.me/77021120066" class="p-[6px] border border-green-200"
+            ><img alt="Chat on WhatsApp" src="@/assets/icons/whatsapp.svg"
+          /></a>
         </div>
         <!-- <p>+7 702 112 00 66</p> -->
       </div>
