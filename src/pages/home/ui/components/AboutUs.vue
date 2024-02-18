@@ -15,7 +15,7 @@
       </div>
       <ImageCarousel />
     </div>
-    <div class="flex items-center gap-8 px-12 self-center">
+    <div class="flex items-center gap-20 px-12 self-center">
       <img src="@/assets/rivoli-gallery.jpg" width="570" height="684" alt="" />
       <div class="flex flex-col">
         <img src="@/assets/rivoli-logo-2.svg" width="192" height="63" alt="" />
