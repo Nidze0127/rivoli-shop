@@ -1,6 +1,6 @@
 <template>
   <div class="hidden lg:flex flex-col gap-40">
-    <div class="relative w-[1070px] self-end mt-[90px]">
+    <div class="relative w-[1070px] self-center mt-[90px]">
       <div class="flex flex-wrap items-end gap-x-10">
         <p class="w-fit font-cormorant font-bold text-[120px] text-green-200 uppercase leading-[120px]">
           {{ $t('home.about.gallery') }}
