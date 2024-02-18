@@ -1,12 +1,14 @@
 <template>
   <div class="hidden lg:flex flex-col gap-40">
-    <div class="relative w-[1070px] self-center mt-[90px]">
-      <div class="flex flex-wrap items-end gap-x-10">
-        <p class="w-fit font-cormorant font-bold text-[120px] text-green-200 uppercase leading-[120px]">
+    <div class="relative w-[1000px] self-center mt-[90px]">
+      <div class="flex flex-wrap items-end gap-x-10 pl-[100px] xl:pl-0">
+        <p class="w-fit font-cormorant font-bold text-[80px] xl:text-[120px] text-green-200 uppercase leading-[120px]">
           {{ $t('home.about.gallery') }}
         </p>
-        <p class="w-fit font-cormorant font-bold text-[110px] uppercase leading-[120px]">{{ $t('home.about.cozy') }}</p>
-        <p class="w-fit font-cormorant font-bold text-[110px] uppercase leading-[120px]">
+        <p class="w-fit font-cormorant font-bold text-[80px] xl:text-[110px] uppercase leading-[120px]">
+          {{ $t('home.about.cozy') }}
+        </p>
+        <p class="w-fit font-cormorant font-bold text-[80px] xl:text-[110px] uppercase leading-[120px]">
           {{ $t('home.about.comfort') }}
         </p>
         <p class="w-[300px] mb-5 font-light font-montserrat">
@@ -15,8 +17,9 @@
       </div>
       <ImageCarousel />
     </div>
-    <div class="flex items-center gap-20 px-12 self-center">
-      <img src="@/assets/rivoli-gallery.jpg" width="570" height="684" alt="" />
+    <div class="flex items-center gap-20 px-8 lg:px-12 self-center">
+      <img src="@/assets/rivoli-gallery.jpg" width="570" height="684" alt="" class="hidden xl:block" />
+      <img src="@/assets/rivoli-gallery.jpg" width="300" height="340" alt="" class="xl:hidden" />
       <div class="flex flex-col">
         <img src="@/assets/rivoli-logo-2.svg" width="192" height="63" alt="" />
         <p class="mt-10 font-montserrat text-xl uppercase">{{ $t('home.about.help.title') }}</p>

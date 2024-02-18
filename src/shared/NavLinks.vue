@@ -1,5 +1,5 @@
 <template>
-  <nav class="flex flex-col items-center gap-4 lg:gap-10 uppercase transition lg:flex-row">
+  <nav class="flex flex-col items-center gap-4 lg:gap-10 whitespace-nowrap uppercase transition lg:flex-row">
     <RouterLink
       to="/about-us"
       class="hover:text-green-100 hover:underline hover:duration-300"

@@ -1,5 +1,5 @@
 <template>
-  <main class="flex flex-col px-4 lg:px-[135px] overflow-x-hidden">
+  <main class="flex flex-col px-4 lg:px-[120px] overflow-x-hidden">
     <HeaderComponent />
     <RouterView />
     <FooterComponent v-if="isFooterVisible" />

@@ -1,5 +1,5 @@
 <template>
-  <header class="hidden lg:flex items-center justify-between py-5 self-center w-full border-b border-black">
+  <header class="hidden lg:flex items-center justify-between gap-10 py-5 self-center w-full border-b border-black">
     <div class="flex items-center gap-24">
       <RouterLink to="/">
         <img v-if="isLogoBlack" src="@/assets/rivoli-logo-black.svg" width="161" height="53" alt="Rivoli Logo" />
@@ -7,7 +7,7 @@
       </RouterLink>
       <NavLinks />
     </div>
-    <div class="flex items-center gap-14">
+    <div class="flex items-center gap-10">
       <LangSelector />
       <div class="flex items-center gap-3">
         <a href="https://www.instagram.com/rivoli.gallery/" target="_blank" class="p-[6px] border border-green-200">
