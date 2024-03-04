@@ -11,7 +11,7 @@
         <p class="w-fit font-cormorant font-bold text-[80px] xl:text-[110px] uppercase leading-[120px]">
           {{ $t('home.about.comfort') }}
         </p>
-        <p class="w-[300px] mb-5 font-light font-montserrat">
+        <p class="w-[220px] xl:w-[300px] mb-5 text-[13px] xl:text-base font-light font-montserrat">
           {{ $t('home.about.outstanding') }}
         </p>
       </div>
