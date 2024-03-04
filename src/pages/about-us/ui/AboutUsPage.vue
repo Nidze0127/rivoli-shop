@@ -3,7 +3,7 @@
     <div class="absolute top-0 left-0 h-[500px] lg:h-[1000px] w-full bg-green-100 -z-10"></div>
     <div class="flex flex-col items-center gap-12 mb-[120px]">
       <h1 class="font-cormorant font-bold text-3xl lg:text-[60px] uppercase text-center">{{ $t('aboutUs.title') }}</h1>
-      <p class="w-4/5 font-cormorant font-bold text-2xl xl:text-[64px] text-center">
+      <p class="w-4/5 font-cormorant font-bold text-2xl xl:text-[64px] xl:leading-[50px] text-center">
         {{ $t('aboutUs.desc') }}
       </p>
       <img src="@/assets/about-main.jpg" alt="" />
