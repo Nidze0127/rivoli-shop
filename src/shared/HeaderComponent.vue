@@ -2,7 +2,7 @@
   <header class="hidden lg:flex items-center justify-between gap-10 py-5 self-center w-full border-b border-black">
     <div class="flex items-center gap-24">
       <RouterLink to="/">
-        <img v-if="isLogoBlack" src="@/assets/rivoli-logo-black.svg" width="161" height="53" alt="Rivoli Logo" />
+        <img v-if="isLogoBlack" src="@/assets/rivoli-logo-black.png" width="161" height="53" alt="Rivoli Logo" />
         <img v-else src="@/assets/rivoli-logo-3.svg" width="161" height="53" alt="Rivoli Logo" class="h-[53px]" />
       </RouterLink>
       <NavLinks />
@@ -28,7 +28,7 @@
       <img src="@/assets/icons/burger-menu.svg" alt="" />
     </button>
     <RouterLink to="/">
-      <img v-if="isLogoBlack" src="@/assets/rivoli-logo-black.svg" width="161" height="53" alt="Rivoli Logo" />
+      <img v-if="isLogoBlack" src="@/assets/rivoli-logo-black.png" width="161" height="53" alt="Rivoli Logo" />
       <img v-else src="@/assets/rivoli-logo-mobile.svg" alt="Rivoli Logo" />
     </RouterLink>
     <button type="button" @click="isMenuOpen = !isMenuOpen">
