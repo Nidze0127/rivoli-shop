@@ -31,10 +31,11 @@
             "sun": "Sun",
             "off": "day off",
             "kz": "Kazakhstan,",
+            "fullWeek": "Mon-Sun",
             "address": {
                 "almaty": {
                     "city": "050010, Almaty city,",
-                    "street": "Kunaev st., 139, 2nd floor",
+                    "street": "Kunaev st., 139",
                     "building": ""
                 },
                 "shymkent": {
@@ -67,7 +68,7 @@
             "almaty": {
                 "city": "Almaty",
                 "address": "050010, Almaty city,",
-                "street": "Kunaev st., 139, 2nd floor"
+                "street": "Kunaev st., 139"
             },
             "shymkent": {
                 "city": "Shymkent",

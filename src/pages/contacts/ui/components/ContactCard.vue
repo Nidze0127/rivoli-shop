@@ -3,13 +3,18 @@
     <div class="flex flex-col gap-3 lg:gap-10 lg:w-[400px]">
       <div class="flex items-start gap-3">
         <img src="@/assets/icons/calendar.svg" width="24" height="24" alt="" class="mt-2" />
-        <p class="flex flex-col text-gray-400 lg:text-lg">
-          <span>{{ $t('contacts.card.weekdays') }} {{ shopData.workingHours.weekdays }}</span>
-          <span>{{ $t('contacts.card.sat') }} {{ shopData.workingHours.saturday }}</span>
-          <span v-if="shopData.workingHours.sunday"
-            >{{ $t('contacts.card.sun') }} {{ shopData.workingHours.sunday }}</span
+        <p v-if="shopData.name === 'Rivoli Almaty'" class="flex flex-col text-gray-400 lg:text-lg">
+          <span>{{ $t('contacts.card.weekdays') }}: {{ shopData.workingHours.weekdays }}</span>
+          <span v-if="shopData.workingHours.saturday"
+            >{{ $t('contacts.card.sat') }}: {{ shopData.workingHours.saturday }}</span
           >
-          <span v-else>{{ $t('contacts.card.sun') }} {{ $t('contacts.card.off') }}</span>
+          <span>{{ $t('contacts.card.sun') }}: {{ $t('contacts.card.off') }}</span>
+        </p>
+        <p v-if="shopData.name === 'Rivoli Shymkent'" class="flex flex-col text-gray-400 lg:text-lg">
+          <span>{{ $t('contacts.card.fullWeek') }}: {{ shopData.workingHours.weekdays }}</span>
+          <span v-if="shopData.workingHours.saturday"
+            >{{ $t('contacts.card.sat') }}: {{ shopData.workingHours.saturday }}</span
+          >
         </p>
       </div>
       <div class="flex items-start gap-3">

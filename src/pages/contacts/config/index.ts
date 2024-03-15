@@ -20,8 +20,7 @@ export const shops: ShopData[] = [
     phone: ['+7‒775‒196‒02‒70', '+7‒707‒739‒04‒85'],
     whatsapp: '',
     workingHours: {
-      weekdays: '11:00-20:00',
-      saturday: '11:00-17:00'
+      weekdays: '10:00-21:00'
     },
     geo: 'shymkent',
     insta: 'https://www.instagram.com/rivoli_gallery.shym/'

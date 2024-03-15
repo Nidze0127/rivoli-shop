@@ -6,7 +6,7 @@ export type ShopData = {
   whatsapp: string
   workingHours: {
     weekdays: string
-    saturday: string
+    saturday?: string
     sunday?: string
   }
   geo: string
