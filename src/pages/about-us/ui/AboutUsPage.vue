@@ -12,11 +12,11 @@
     <img src="@/assets/rivoli-logo-3.svg" width="200" alt="" class="mb-12 lg:hidden" />
     <div class="flex flex-col gap-5 lg:w-[475px] pl-8">
       <p class="font-montserrat text-xl font-medium uppercase">{{ $t('aboutUs.help.title') }}</p>
-      <div class="flex flex-col gap-3 lg:gap-0 text-gray-400 font-montserrat">
-        <p>• {{ $t('aboutUs.help.create') }}</p>
-        <p>• {{ $t('aboutUs.help.items') }}</p>
-        <p>• {{ $t('aboutUs.help.order') }}</p>
-      </div>
+      <ul class="flex flex-col gap-3 lg:gap-0 text-gray-400 font-montserrat list-disc">
+        <li>{{ $t('aboutUs.help.create') }}</li>
+        <li>{{ $t('aboutUs.help.items') }}</li>
+        <li>{{ $t('aboutUs.help.order') }}</li>
+      </ul>
     </div>
     <OurPartners class="w-full" />
     <img src="@/assets/rivoli-gallery.jpg" width="570" height="684" alt="" class="mt-[120px]" />
