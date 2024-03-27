@@ -34,14 +34,14 @@
             "fullWeek": "Mon-Sun",
             "address": {
                 "almaty": {
-                    "city": "050010, Almaty city,",
+                    "city": "050010, Almaty city",
                     "street": "Kunaev st., 139",
                     "building": ""
                 },
                 "shymkent": {
-                    "city": "160000, Shymkent,",
-                    "street": "Tamerlan highway 19",
-                    "building": "Al-Farabi shopping center, boutique 122"
+                    "city": "160000, Shymkent",
+                    "street": "Tamerlan highway, 19",
+                    "building": "’’Al-Farabi’’ shopping center, boutique 122"
                 }
             },
             "warning": "All calls and messages will be processed only during business hours"
@@ -67,14 +67,14 @@
             "kz": "Kazakhstan,",
             "almaty": {
                 "city": "Almaty",
-                "address": "050010, Almaty city,",
+                "address": "050010, Almaty city",
                 "street": "Kunaev st., 139"
             },
             "shymkent": {
                 "city": "Shymkent",
-                "address": "160000, Shymkent,",
-                "street": "Tamerlan highway 19",
-                "building": "Al-Farabi shopping center, boutique 122"
+                "address": "160000, Shymkent",
+                "street": "Tamerlan highway, 19",
+                "building": "’’Al-Farabi shopping center’’, boutique 122"
             }
         },
         "news": "News"
@@ -86,7 +86,7 @@
     },
     "notFound": {
         "title": "Sorry, page not found.",
-        "goHome": "go to home page"
+        "goHome": "Go to home page"
     },
     "footer": {
         "title": "Gallery of coziness and comfort"
