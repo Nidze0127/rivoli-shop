@@ -26,12 +26,15 @@
             <img src="@/assets/icons/geo-pin.svg" width="23" height="23" alt="" />
             <p class="flex flex-col text-lg">
               <template v-if="activeCity === CityName.almaty">
-                <span>{{ $t('home.contacts.kz') }}</span
-                ><span>{{ $t('home.contacts.almaty.address') }}</span
-                ><span>{{ $t('home.contacts.almaty.street') }}</span>
+                <span>{{ $t('home.contacts.kz') }}</span>
+                <span>{{ $t('home.contacts.almaty.index') }}</span>
+                <span>{{ $t('home.contacts.almaty.address') }}</span>
+                <span>{{ $t('home.contacts.almaty.street') }}</span>
               </template>
               <template v-else-if="activeCity === CityName.shymkent">
-                <span>{{ $t('home.contacts.kz') }}</span> <span>{{ $t('home.contacts.shymkent.address') }}</span>
+                <span>{{ $t('home.contacts.kz') }}</span>
+                <span>{{ $t('home.contacts.shymkent.index') }}</span>
+                <span>{{ $t('home.contacts.shymkent.address') }}</span>
                 <span>{{ $t('home.contacts.shymkent.street') }}</span>
                 <span>{{ $t('home.contacts.shymkent.building') }}</span>
               </template>
