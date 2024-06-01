@@ -21,6 +21,7 @@
         <img src="@/assets/icons/geo-pin.svg" width="24" height="24" alt="" class="mt-2" />
         <p class="flex flex-col text-gray-400 lg:text-lg">
           <span>{{ $t('contacts.card.kz') }}</span>
+          <span>{{ $t(`contacts.card.address.${shopData.geo}.index`) }}</span>
           <span>{{ $t(`contacts.card.address.${shopData.geo}.city`) }}</span>
           <span>{{ $t(`contacts.card.address.${shopData.geo}.street`) }}</span>
           <span>{{ $t(`contacts.card.address.${shopData.geo}.building`) }}</span>
