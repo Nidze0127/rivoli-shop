@@ -3,7 +3,7 @@
     <div class="absolute top-0 left-0 h-[500px] lg:h-[1000px] w-full bg-green-100 -z-10"></div>
     <div class="flex flex-col items-center gap-12 mb-[140px]">
       <h1 class="font-cormorant font-bold text-3xl lg:text-[60px] uppercase text-center">{{ $t('aboutUs.title') }}</h1>
-      <p class="w-4/5 font-cormorant font-bold text-2xl xl:text-[40px] xl:leading-[50px] text-center">
+      <p class="w-4/5 font-cormorant font-bold text-2xl xl:text-[30px] xl:leading-[50px] text-center">
         {{ $t('aboutUs.desc') }}
       </p>
       <img src="@/assets/about-main.jpg" alt="" />
@@ -23,7 +23,7 @@
     <p class="mt-28 w-fit font-cormorant text-3xl lg:text-[56px] font-bold text-center leading-[70px]">
       {{ $t('aboutUs.check') }}
     </p>
-    <PageLink :route="{ name: 'gallery' }" :text="$t('pageLink.gallery')" has-margin />
+    <PageLink :route="{ name: 'gallery' }" :text="$t('pageLink.gallery')" class="mt-4" />
   </main>
 </template>
 
