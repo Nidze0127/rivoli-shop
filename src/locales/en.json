@@ -34,12 +34,14 @@
             "fullWeek": "Mon-Sun",
             "address": {
                 "almaty": {
-                    "city": "050010, Almaty city",
+                    "index": "050010",
+                    "city": "Almaty city",
                     "street": "Kunaev st., 139",
                     "building": ""
                 },
                 "shymkent": {
-                    "city": "160000, Shymkent",
+                    "index": "160000",
+                    "city": "Shymkent city",
                     "street": "Tamerlan highway, 19",
                     "building": "’’Al-Farabi’’ shopping center, boutique 122"
                 }
@@ -67,12 +69,14 @@
             "kz": "Kazakhstan,",
             "almaty": {
                 "city": "Almaty",
-                "address": "050010, Almaty city",
+                "index": "050010",
+                "address": "Almaty city",
                 "street": "Kunaev st., 139"
             },
             "shymkent": {
                 "city": "Shymkent",
-                "address": "160000, Shymkent",
+                "index": "160000",
+                "address": "Shymkent city",
                 "street": "Tamerlan highway, 19",
                 "building": "’’Al-Farabi shopping center’’, boutique 122"
             }

@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-center gap-10 lg:gap-[90px] my-24 lg:px-[100px]">
+  <div class="flex flex-col items-center gap-10 lg:gap-[50px] my-24 lg:px-[100px]">
     <h4 class="font-cormorant font-semibold text-3xl lg:text-[60px] uppercase text-center">контакты</h4>
     <div class="hidden lg:grid grid-cols-3 gap-12">
       <div class="flex flex-col gap-8">
@@ -26,12 +26,15 @@
             <img src="@/assets/icons/geo-pin.svg" width="23" height="23" alt="" />
             <p class="flex flex-col text-lg">
               <template v-if="activeCity === CityName.almaty">
-                <span>{{ $t('home.contacts.kz') }}</span
-                ><span>{{ $t('home.contacts.almaty.address') }}</span
-                ><span>{{ $t('home.contacts.almaty.street') }}</span>
+                <span>{{ $t('home.contacts.kz') }}</span>
+                <span>{{ $t('home.contacts.almaty.index') }}</span>
+                <span>{{ $t('home.contacts.almaty.address') }}</span>
+                <span>{{ $t('home.contacts.almaty.street') }}</span>
               </template>
               <template v-else-if="activeCity === CityName.shymkent">
-                <span>{{ $t('home.contacts.kz') }}</span> <span>{{ $t('home.contacts.shymkent.address') }}</span>
+                <span>{{ $t('home.contacts.kz') }}</span>
+                <span>{{ $t('home.contacts.shymkent.index') }}</span>
+                <span>{{ $t('home.contacts.shymkent.address') }}</span>
                 <span>{{ $t('home.contacts.shymkent.street') }}</span>
                 <span>{{ $t('home.contacts.shymkent.building') }}</span>
               </template>
