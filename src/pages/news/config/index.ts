@@ -24,6 +24,32 @@ export const emptyArticle: NewsDetails = {
 export const newsCollection: NewsDetails[] = [
   {
     id: '1',
+    date: '01.11.2024',
+    ru: {
+      title: 'La CORNUE',
+      shortDesc:
+        'La Cornue — это знаменитый французский бренд, который ассоциируется с роскошью и кулинарным мастерством. Основанная в 1908 году Альбером Дюпуи, компания произвела революцию в кухонной технике, создав первую в мире духовку с конвекцией. В отличие от традиционных моделей того времени, конвекционная духовка Дюпуи позволяла теплу равномерно циркулировать вокруг пищи, что обеспечивало более качественное приготовление. Сегодня La Cornue продолжает придерживаться высоких стандартов, создавая элитные плиты вручную, с использованием лучших материалов, таких как сталь, медь и латунь.',
+      fullDesc:
+        'La Cornue — это знаменитый французский бренд, который ассоциируется с роскошью и кулинарным мастерством. Основанная в 1908 году Альбером Дюпуи, компания произвела революцию в кухонной технике, создав первую в мире духовку с конвекцией. В отличие от традиционных моделей того времени, конвекционная духовка Дюпуи позволяла теплу равномерно циркулировать вокруг пищи, что обеспечивало более качественное приготовление. Сегодня La Cornue продолжает придерживаться высоких стандартов, создавая элитные плиты вручную, с использованием лучших материалов, таких как сталь, медь и латунь. Отличительной чертой плит La Cornue является внимание к деталям. Каждая плита — это не просто бытовая техника, а настоящее произведение искусства, которое подчеркивает изысканность интерьера кухни. Владельцы таких плит не только наслаждаются высоким качеством готовки, но и подчеркивают свой статус и стремление к кулинарному совершенству. Кроме того, плиты La Cornue оборудованы передовыми технологиями. Например, газовые духовки используют естественную конвекцию для равномерного запекания мяса и рыбы, а электрические духовки оснащены вентиляторами для идеального выпекания. Эта комбинация традиционной и современной техники позволяет добиваться точных и стабильных результатов в любых кулинарных экспериментах. Основными линиями продуктов являются Château и CornuFé. Линейка Château — это воплощение настоящей роскоши: плиты этой серии полностью настраиваемы и производятся под заказ. Château доступны в разных размерах и конфигурациях, предлагая как газовые, так и электрические духовки, а также широкий выбор варочных поверхностей, включая газовые горелки, французские плиты и индукционные элементы. Клиенты могут выбрать из почти 50 цветовых вариантов и нескольких отделок, что делает каждую плиту уникальной.Линейка CornuFé, в свою очередь, более доступна, но не менее элегантна. В отличие от Château, плиты CornuFé не настраиваются и выпускаются в стандартных размерах. Они оснащены электрическими конвекционными духовками и газовыми горелками, что делает их отличным выбором для тех, кто ценит функциональность и дизайн, но не нуждается в полной кастомизации. Таким образом, La Cornue — это гармония традиций и инноваций, которая идеально подходит как для профессиональных шеф-поваров, так и для тех, кто просто любит готовить. Плиты этого бренда становятся не просто частью кухни, а символом кулинарного искусства и роскоши.'
+    },
+    en: {
+      title: 'La CORNUE',
+      shortDesc:
+        'La Cornue is a famous French brand associated with luxury and culinary excellence. Founded in 1908 by Albert Dupuis, the company revolutionized kitchen appliances by creating the world’s first convection oven. Unlike traditional models of the time, Dupuis’ convection oven allowed heat to circulate evenly around the food, ensuring better cooking. Today, La Cornue continues to adhere to high standards, creating luxury cookers by hand, using the finest materials such as steel, copper and brass.',
+      fullDesc:
+        'La Cornue is a famous French brand associated with luxury and culinary excellence. Founded in 1908 by Albert Dupuis, the company revolutionized kitchen appliances by creating the world’s first convection oven. Unlike traditional models of the time, Dupuis’ convection oven allowed heat to circulate evenly around the food, ensuring better cooking. Today, La Cornue continues to adhere to high standards, creating luxury cookers by hand, using the finest materials such as steel, copper and brass. A distinctive feature of La Cornue cookers is their attention to detail. Each cooker is not just a household appliance, but a true work of art that emphasizes the sophistication of the kitchen interior. Owners of such cookers not only enjoy high-quality cooking, but also emphasize their status and desire for culinary excellence. In addition, La Cornue cookers are equipped with advanced technologies. For example, gas ovens use natural convection to evenly roast meat and fish, while electric ovens are equipped with fans for perfect baking. This combination of traditional and modern technology allows you to achieve precise and consistent results in any culinary experiments. The main product lines are Château and CornuFé. The Château line is the epitome of true luxury: the hobs in this series are fully customizable and made to order. Château is available in different sizes and configurations, offering both gas and electric ovens, as well as a wide range of hobs, including gas burners, French hobs, and induction elements. Customers can choose from almost 50 color options and several finishes, making each hob unique. The CornuFé line, on the other hand, is more affordable, but no less elegant. Unlike Château, CornuFé hobs are not customizable and come in standard sizes. They are equipped with electric convection ovens and gas burners, making them an excellent choice for those who value functionality and design, but do not need full customization. Thus, La Cornue is a harmony of tradition and innovation, which is ideal for both professional chefs and those who simply love to cook. The stoves of this brand become not just a part of the kitchen, but a symbol of culinary art and luxury.'
+    },
+    kz: {
+      title: 'La CORNUE',
+      shortDesc:
+        'La Cornue - сән-салтанат пен аспаздық шеберліктің синонимі болып табылатын әйгілі француз бренді. 1908 жылы Альберт Дюпю негізін қалаған компания әлемдегі алғашқы конвекциялық пеші бар ас үй құрылғыларында төңкеріс жасады. Сол кездегі дәстүрлі үлгілерден айырмашылығы, Dupuis конвекциялық пеші тағамның айналасында жылудың біркелкі айналуына мүмкіндік берді, бұл, өз кезегінде, тағамды жақсырақ пісіруге мүмкіндік берді. Бүгінгі күні La Cornue болат, мыс және жез сияқты ең жақсы материалдарды қолданып, сәнді плиталарды жасай отырып, жоғары стандарттарды сақтауды жалғастыруда.',
+      fullDesc:
+        'La Cornue - сән-салтанат пен аспаздық шеберліктің синонимі болып табылатын әйгілі француз бренді. 1908 жылы Альберт Дюпю негізін қалаған компания әлемдегі алғашқы конвекциялық пеші бар ас үй құрылғыларында төңкеріс жасады. Сол кездегі дәстүрлі үлгілерден айырмашылығы, Dupuis конвекциялық пеші тағамның айналасында жылудың біркелкі айналуына мүмкіндік берді, бұл, өз кезегінде, тағамды жақсырақ пісіруге мүмкіндік берді. Бүгінгі күні La Cornue болат, мыс және жез сияқты ең жақсы материалдарды қолданып, сәнді плиталарды жасай отырып, жоғары стандарттарды сақтауды жалғастыруда. La Cornue плиталарының ерекшелігі - олардың бөлшектерге назар аударуы. Әрбір пеш тек тұрмыстық техника емес, асүй интерьерінің талғампаздығына ерекше мән беретін нағыз өнер туындысы. Мұндай пештердің иелері жоғары сапалы тағам дайындауды ғана емес, сонымен қатар олардың мәртебесін және аспаздық шеберлікке деген ұмтылысын ерекше атап өтеді. Сонымен қатар, La Cornue пештері озық технологиялармен жабдықталған. Мысалы, газ пештері ет пен балықты біркелкі пісіру үшін табиғи конвекцияны пайдаланады, ал электр пештері тамаша пісіру үшін желдеткішпен қоректенеді. Дәстүрлі және заманауи әдістердің бұл үйлесімі кез келген аспаздық эксперименттерінде дәл және дәйекті нәтижелерге қол жеткізуге мүмкіндік береді. Негізгі өнім желілері - Château және CornuFé. Château ассортименті нағыз сән-салтанаттың көрінісі болып табылады: ассортимент толығымен теңшеуге және тапсырыс бойынша жасалған. Châteaus әртүрлі өлшемдер мен конфигурацияларда қол жетімді, олар газ және электр пештерін, сонымен қатар газ қыздырғыштарын, француз диапазондарын және индукциялық элементтерді қоса алғанда, пештердің кең таңдауын ұсынады. Тұтынушылар 50-ге жуық түс опциялары мен бірнеше әрлеуді таңдай алады, бұл әр тақтаны бірегей етеді. CornuFé желісі, өз кезегінде, арзанырақ, бірақ талғампаздығы кем емес. Château-дан айырмашылығы, CornuFé тақталары теңшелмейді және стандартты өлшемдерде келеді. Оларда электр конвекциялық пештері мен газ қыздырғыштары бар, бұл оларды функционалдылық пен дизайнды бағалайтын, бірақ толық теңшеуді қажет етпейтіндер үшін тамаша таңдау жасайды. Осылайша, La Cornue - бұл дәстүр мен инновацияның үйлесімділігі, ол кәсіби аспаздар үшін де, жай ғана тамақ пісіруді ұнататындар үшін де өте қолайлы. Бұл брендтің пештері ас үйдің бір бөлігі ғана емес, аспаздық өнер мен сән-салтанаттың символына айналады.'
+    },
+    img: 'news-lacornue.jpg'
+  },
+  {
+    id: '2',
     date: '15.06.2024',
     ru: {
       title: 'Итальянская керамика',
@@ -49,7 +75,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-1.jpg'
   },
   {
-    id: '2',
+    id: '3',
     date: '20.04.2024',
     ru: {
       title: 'Шарфы и пледы Elvang',
@@ -75,7 +101,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-2.jpg'
   },
   {
-    id: '3',
+    id: '4',
     date: '20.03.2024',
     ru: {
       title: 'Диван-кровать',
@@ -101,7 +127,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-3.jpg'
   },
   {
-    id: '4',
+    id: '5',
     date: '25.02.2024',
     ru: {
       title: 'Домашняя библиотека',
@@ -127,7 +153,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-4.jpg'
   },
   {
-    id: '5',
+    id: '6',
     date: '13.01.2024',
     ru: {
       title: 'Вазы в интерьере',
@@ -153,7 +179,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-5.jpg'
   },
   {
-    id: '6',
+    id: '7',
     date: '10.12.2023',
     ru: {
       title: 'Мы открыли сезон!',
@@ -179,7 +205,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-6.jpg'
   },
   {
-    id: '7',
+    id: '8',
     date: '01.11.2023',
     ru: {
       title: 'Мне по фэншуй: как правильно сделать перестановку мебели в доме',
@@ -205,7 +231,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-7.jpg'
   },
   {
-    id: '8',
+    id: '9',
     date: '01.11.2023',
     ru: {
       title: '«Сделано в Италии»',
