@@ -24,6 +24,32 @@ export const emptyArticle: NewsDetails = {
 export const newsCollection: NewsDetails[] = [
   {
     id: '1',
+    date: '18.05.2025',
+    ru: {
+      title: 'Домашняя библиотека',
+      shortDesc:
+        'Книжные библиотеки: тихие хранители времени. В мире, где всё чаще выбирают скорость, книжные библиотеки остаются островами тишины, смысла и внутреннего покоя. Это не просто мебель — это архитектура мысли. Здесь каждая полка напоминает: мы всё ещё умеем читать глазами, а не только скроллить пальцем.',
+      fullDesc:
+        'Книжные библиотеки: тихие хранители времени. В мире, где всё чаще выбирают скорость, книжные библиотеки остаются островами тишины, смысла и внутреннего покоя. Это не просто мебель — это архитектура мысли. Здесь каждая полка напоминает: мы всё ещё умеем читать глазами, а не только скроллить пальцем. Домашняя библиотека — это не обязательно зал с высокими потолками и лестницей на рельсах. Это уголок, где книги становятся частью интерьера, а интерьер — продолжением характера владельца. Полки могут быть строгими и минималистичными или сложными, с патиной времени и декоративной резьбой, но всегда — честными. Они несут на себе вес не только томов, но и историй, идей, открытий. Библиотека не диктует — она приглашает. В кабинетах она создает атмосферу сосредоточенности, в гостиных — интеллигентного уюта, в спальнях — тихой интимности. Это живая структура, растущая со временем: каждое пополнение — как новая глава в книге жизни. А ещё библиотека — это своеобразный портрет. По собранию можно узнать о вкусах, увлечениях, мечтах. Одни выстраивают её по авторам и эпохам, другие — по цветам корешков. Кто-то собирает редкости, кто-то — только поэзию. Но в любом случае это всегда личная история, оформленная в дерево, бумагу и свет. Сегодня, когда снова возвращается мода на «медленные удовольствия», библиотека звучит особенно актуально. Это не тренд — это корни. Связь с собой. И с тем, что важно.'
+    },
+    en: {
+      title: 'Home Library',
+      shortDesc:
+        'Book Libraries: Silent Keepers of Time. In a world where speed is increasingly the norm, book libraries remain islands of silence, meaning, and inner peace. They are not just furniture, they are the architecture of thought. Here, every shelf reminds us that we can still read with our eyes, not just scroll with our fingers.',
+      fullDesc:
+        'In a world where speed is increasingly the norm, book libraries remain islands of silence, meaning, and inner peace. They are not just furniture, they are the architecture of thought. Here, every shelf reminds us that we can still read with our eyes, not just scroll with our fingers. A home library is not necessarily a room with high ceilings and a staircase on rails. It is a corner where books become part of the interior, and the interior is an extension of the owner’s character. Shelves can be strict and minimalist or complex, with the patina of time and decorative carving, but always honest. They bear the weight of not only volumes, but also stories, ideas, discoveries. A library does not dictate - it invites. In cabinets, it creates an atmosphere of concentration, in living rooms - intelligent comfort, in bedrooms - quiet intimacy. It is a living structure that grows over time: each addition is like a new chapter in the book of life. A library is also a kind of portrait. You can learn about tastes, hobbies, dreams from the collection. Some arrange it by authors and eras, others - by the colors of the spines. Someone collects rarities, someone - only poetry. But in any case, it is always a personal story, framed in wood, paper and light. Today, when the fashion for «slow pleasures» is returning, the library sounds especially relevant. It is not a trend - it is the roots. A connection with yourself. And with what is important.'
+    },
+    kz: {
+      title: 'Үй кітапханасы',
+      shortDesc:
+        'Үй кітапханалары: тыныш уақыт сақтаушылар. Жылдамдық жиі таңдалатын әлемде кітап кітапханалары тыныштық, мағыналық және ішкі тыныштық аралдары болып қала береді. Бұл жай ғана жиһаз емес - ой архитектурасы. Бұл жерде әрбір сөре еске салады: біз бармақпен ғана емес, көзімізбен оқи аламыз.',
+      fullDesc:
+        'Үй кітапханалары: тыныш уақыт сақтаушылар. Жылдамдық жиі таңдалатын әлемде кітап кітапханалары тыныштық, мағыналық және ішкі тыныштық аралдары болып қала береді. Бұл жай ғана жиһаз емес - ой архитектурасы. Бұл жерде әрбір сөре еске салады: біз бармақпен ғана емес, көзімізбен оқи аламыз. Үй кітапханасы - бұл міндетті түрде төбесі биік және рельстегі баспалдақтары бар зал емес. Бұл кітап интерьердің бір бөлігіне, ал интерьер - иесінің сипатының жалғасына айналатын бұрыш. Сөрелер қатаң және минималистік немесе күрделі, уақыт пен сәндік оймасы бар, бірақ әрқашан - адал болуы мүмкін. Олар томдардың ғана емес, тарихтың, идеялардың, жаңалықтардың да салмағын көтереді. Кітапхана талап етпейді - ол шақырады. Кабинеттерде ол шоғырлану, қонақ бөлмелерінде - зиялы жайлылық, жатын бөлмелерде - тыныш жақындық атмосферасын қалыптастырады. Бұл уақыт өте келе өсіп келе жатқан тірі құрылым: әрбір толықтыру - кітап өміріндегі жаңа тарау сияқты. Сондай-ақ кітапхана - бұл өзіндік портрет. Жиналыстан дәмдер, қызығушылықтар, армандар туралы білуге болады. Кейбіреулері оны авторлар мен дәуірлерге қарай, кейбіреулері түбіртектердің түсіне қарай тұрғызады. Біреулер сирек кездесетін заттарды, біреулер тек поэзияны жинайды. Бірақ кез келген жағдайда бұл әрқашан ағашқа, қағазға және жарыққа безендірілген жеке тарих. Бүгінде «баяу рахаттану» сәні қайта оралып жатқанда, кітапхана ерекше өзекті болып көрінеді. Бұл тренд емес - бұл тамыр.'
+    },
+    img: 'news-library'
+  },
+  {
+    id: '2',
     date: '01.11.2024',
     ru: {
       title: 'La CORNUE',
@@ -49,7 +75,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-lacornue.jpg'
   },
   {
-    id: '2',
+    id: '3',
     date: '15.06.2024',
     ru: {
       title: 'Итальянская керамика',
@@ -75,7 +101,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-1.jpg'
   },
   {
-    id: '3',
+    id: '4',
     date: '20.04.2024',
     ru: {
       title: 'Шарфы и пледы Elvang',
@@ -101,7 +127,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-2.jpg'
   },
   {
-    id: '4',
+    id: '5',
     date: '20.03.2024',
     ru: {
       title: 'Диван-кровать',
@@ -127,7 +153,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-3.jpg'
   },
   {
-    id: '5',
+    id: '6',
     date: '25.02.2024',
     ru: {
       title: 'Домашняя библиотека',
@@ -153,7 +179,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-4.jpg'
   },
   {
-    id: '6',
+    id: '7',
     date: '13.01.2024',
     ru: {
       title: 'Вазы в интерьере',
@@ -179,7 +205,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-5.jpg'
   },
   {
-    id: '7',
+    id: '8',
     date: '10.12.2023',
     ru: {
       title: 'Мы открыли сезон!',
@@ -205,7 +231,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-6.jpg'
   },
   {
-    id: '8',
+    id: '9',
     date: '01.11.2023',
     ru: {
       title: 'Мне по фэншуй: как правильно сделать перестановку мебели в доме',
@@ -231,7 +257,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-7.jpg'
   },
   {
-    id: '9',
+    id: '10',
     date: '01.11.2023',
     ru: {
       title: '«Сделано в Италии»',
