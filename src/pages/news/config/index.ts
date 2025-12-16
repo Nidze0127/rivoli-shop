@@ -24,6 +24,32 @@ export const emptyArticle: NewsDetails = {
 export const newsCollection: NewsDetails[] = [
   {
     id: '1',
+    date: '16.12.2025',
+    ru: {
+      title: 'Бокалы La Rochère — французское стекло с душой',
+      shortDesc:
+        'Есть вещи, в которых живёт время. Взяв в руки бокал La Rochère, словно прикасаешься к истории — к Франции XV века, к мастерским, где в печах мерцает огонь, а стекло рождается из света и воздуха. Именно там, в 1475 году, началась история старейшей стекольной мануфактуры Европы.',
+      fullDesc:
+        'Есть вещи, в которых живёт время. Взяв в руки бокал La Rochère, словно прикасаешься к истории — к Франции XV века, к мастерским, где в печах мерцает огонь, а стекло рождается из света и воздуха. Именно там, в 1475 году, началась история старейшей стекольной мануфактуры Европы. La Rochère пережила эпохи, сохранила ремесло и создала свой неповторимый стиль — узнаваемый по плотному прозрачному стеклу, по узорам, напоминающим старинные гербы, волны и листья. Эти бокалы не стремятся быть идеальными, они живые — в них есть тепло рук мастеров, лёгкие неровности, создающие особое очарование ручной работы. La Rochère — это французская повседневность, где простота всегда соседствует с изяществом. Бокалы легко представить на столе в доме на юге Франции, где за окнами пахнет лавандой и слышно жужжание пчёл. Или в городской квартире, где утро начинается с прозрачного света и стакана холодной воды в толстом рельефном стекле. Коллекции бренда — «Versailles», «Perigord», «Ouessant» — объединяет одно: ощущение подлинности. Они подходят и к фарфору, и к дереву, и к простому льняному текстилю. В них всё продумано до мелочей: вес, форма, ритм линий. Бокалы La Rochère не просто служат на столе — они создают атмосферу. Они становятся частью интерьера, частью ритуала, частью жизни. И, может быть, именно поэтому в каждом из них чувствуется не только блеск стекла, но и отблеск французской души.'
+    },
+    en: {
+      title: 'La Rochère glasses – French glass with a soul',
+      shortDesc:
+        'There are things in which time lives. Holding a glass of La Rochère is like touching history—to 15th-century France, to the workshops where fires flickered in furnaces and glass was born from light and air. It was there, in 1475, that the story of Europe’s oldest glassworks began.',
+      fullDesc:
+        'There are things in which time lives. Holding a glass of La Rochère is like touching history—to 15th-century France, to the workshops where fires flickered in furnaces and glass was born from light and air. It was there, in 1475, that the story of Europe’s oldest glassworks began. La Rochère has survived the ages, preserved its craft, and created its own unique style—recognizable by its dense, transparent glass and patterns reminiscent of ancient coats of arms, waves, and leaves. These glasses don’t strive to be perfect; they are alive—they contain the warmth of the artisans’ hands, the slight irregularities that create a special charm of handcrafted craftsmanship. La Rochère is French everyday life, where simplicity always coexists with elegance. It’s easy to imagine these glasses on a table in a house in the south of France, where the scent of lavender wafts through the windows and the buzz of bees can be heard. Or in a city apartment, where the morning begins with clear light and a glass of cold water in a thick, textured glass. The brand’s collections—Versailles, Perigord, Ouessant—all share one thing: a sense of authenticity. They complement porcelain, wood, and simple linen. Everything is carefully considered down to the last detail: the weight, the shape, the rhythm of the lines. La Rochère glasses don’t just serve on the table—they create an atmosphere. They become part of the interior, part of the ritual, part of life. And perhaps that’s why each one conveys not only the sparkle of the glass, but also a glimpse of the French soul.'
+    },
+    kz: {
+      title: 'La Rochère бокалдары — жаны сезілетін француз шынысы',
+      shortDesc:
+        'Уақыттың өзімен бірге өмір сүретін заттар бар. La Rochère бокалын қолыңызға алғанда, XV ғасырдағы Францияға, пештердің ішінде оты маздап, шынының жарық пен ауадан туатын шеберханаларына бір сәтке болса да жақындайсыз. Дәл сол жерде, 1475 жылы Еуропаның ең көне шыны өндіретін мануфактурасының тарихы басталды.',
+      fullDesc:
+        'Уақыттың өзімен бірге өмір сүретін заттар бар. La Rochère бокалын қолыңызға алғанда, XV ғасырдағы Францияға, пештердің ішінде оты маздап, шынының жарық пен ауадан туатын шеберханаларына бір сәтке болса да жақындайсыз. Дәл сол жерде, 1475 жылы Еуропаның ең көне шыны өндіретін мануфактурасының тарихы басталды. La Rochère ғасырлар сүзгісінен өтіп, қолөнер дәстүрін сақтап қалды және өзіне ғана тән ерекше стиль қалыптастырды — қалың әрі мөлдір шынысымен, көне айшықты елтаңбаларды, толқындар мен жапырақтарды еске салатын өрнектерімен оңай танылатын. Бұл бокалдар мінсіздікке ұмтылмайды, себебі оларда шеберлердің қолының жылуы, қол еңбегінің шынайы сұлулығын беретін жеңіл бұдырлар бар. La Rochère — бұл француздың күнделікті өмірі, онда қарапайымдылық әрқашан ізгі талғаммен қатар жүреді. Бұл бокалдарды Францияның оңтүстігіндегі үйдің үстелінде, терезе сыртында лаванда аңқып, аралардың ызыңы естіліп тұрған сәтте елестету оңай. Немесе қаладағы пәтерде — таңғы жарықпен оянатын, қалың рельефті шыныдағы салқын судан басталатын тыныш өмірдің бір бөлшегі ретінде. Брендтің «Versailles», «Perigord», «Ouessant» сияқты коллекцияларын біріктіретін бір нәрсе бар: ол — шынайылық сезімі. Олар фарфорға да, ағашқа да, қарапайым зығыр матаға да жарасады. Әр бөлшегі — салмағы, пішіні, сызықтардың ырғағы — мұқият ойластырылған. La Rochère бокалдары тек дастарқанға қызмет етпейді — олар атмосфера қалыптастырады. Интерардың, күнделікті рәсімдердің, өмірдің бір бөлігіне айналады. Мүмкін, сондықтан да әр бокалда шынының жылтыры ғана емес, француз жанын сездіретін нәзік толқыны бар.'
+    },
+    img: 'news-11.jpg'
+  },
+  {
+    id: '2',
     date: '18.05.2025',
     ru: {
       title: 'Домашняя библиотека',
@@ -49,7 +75,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-10.jpg'
   },
   {
-    id: '2',
+    id: '3',
     date: '01.11.2024',
     ru: {
       title: 'La CORNUE',
@@ -75,7 +101,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-9.jpg'
   },
   {
-    id: '3',
+    id: '4',
     date: '15.06.2024',
     ru: {
       title: 'Итальянская керамика',
@@ -101,7 +127,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-1.jpg'
   },
   {
-    id: '4',
+    id: '5',
     date: '20.04.2024',
     ru: {
       title: 'Шарфы и пледы Elvang',
@@ -127,7 +153,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-2.jpg'
   },
   {
-    id: '5',
+    id: '6',
     date: '20.03.2024',
     ru: {
       title: 'Диван-кровать',
@@ -153,7 +179,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-3.jpg'
   },
   {
-    id: '6',
+    id: '7',
     date: '25.02.2024',
     ru: {
       title: 'Домашняя библиотека',
@@ -179,7 +205,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-4.jpg'
   },
   {
-    id: '7',
+    id: '8',
     date: '13.01.2024',
     ru: {
       title: 'Вазы в интерьере',
@@ -205,7 +231,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-5.jpg'
   },
   {
-    id: '8',
+    id: '9',
     date: '10.12.2023',
     ru: {
       title: 'Мы открыли сезон!',
@@ -231,7 +257,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-6.jpg'
   },
   {
-    id: '9',
+    id: '10',
     date: '01.11.2023',
     ru: {
       title: 'Мне по фэншуй: как правильно сделать перестановку мебели в доме',
@@ -257,7 +283,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-7.jpg'
   },
   {
-    id: '10',
+    id: '11',
     date: '01.11.2023',
     ru: {
       title: '«Сделано в Италии»',
