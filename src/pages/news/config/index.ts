@@ -24,6 +24,32 @@ export const emptyArticle: NewsDetails = {
 export const newsCollection: NewsDetails[] = [
   {
     id: '1',
+    date: '25.02.2026',
+    ru: {
+      title: 'Итальянское стекло IVV: Свет, Тепло и Атмосфера',
+      shortDesc:
+        'Итальянское стекло IVV всегда работает со светом — оно улавливает его, преломляет и возвращает мягким, тёплым сиянием. В золотых коллекциях Folies и Diamante этот эффект раскрывается особенно тонко: здесь стекло становится не просто предметом сервировки, а частью атмосферы дома. Коллекция Folies отличается плавностью линий и живой, почти движущейся формой. Округлые силуэты создают ощущение лёгкости. Это стекло хорошо чувствует себя рядом с натуральными материалами — льняными скатертями, деревянными столами, светлым фарфором. Folies не стремится быть центром внимания, но именно она создаёт ощущение уюта и собранности, когда стол выглядит продуманным и тёплым.',
+      fullDesc:
+        'Итальянское стекло IVV всегда работает со светом — оно улавливает его, преломляет и возвращает мягким, тёплым сиянием. В золотых коллекциях Folies и Diamante этот эффект раскрывается особенно тонко: здесь стекло становится не просто предметом сервировки, а частью атмосферы дома. Коллекция Folies отличается плавностью линий и живой, почти движущейся формой. Округлые силуэты создают ощущение лёгкости. Это стекло хорошо чувствует себя рядом с натуральными материалами — льняными скатертями, деревянными столами, светлым фарфором. Folies не стремится быть центром внимания, но именно она создаёт ощущение уюта и собранности, когда стол выглядит продуманным и тёплым. Diamante звучит иначе. В этой коллекции больше графики и структуры, больше игры света на гранях. Поверхность стекла напоминает огранку кристалла, а золотая линия работает как акцент, добавляя композиции ритм и чёткость. Такое стекло особенно выразительно смотрится в современных интерьерах, на контрасте с каменными поверхностями, тёмным текстилем или минималистичной мебелью. Diamante делает сервировку более архитектурной и завершённой. Обе коллекции создаются вручную, и именно это придаёт им особую ценность. Незначительные нюансы формы, едва заметные различия в бликах — признаки живой работы, которые невозможно воспроизвести в серийном производстве. Это стекло не выглядит холодным или отстранённым: в нём есть дыхание, характер и ощущение времени. Золото в Folies и Diamante — не про показность. Оно отражает свет свечей, усиливает вечернее освещение, создаёт мягкое мерцание за столом. Это выбор для тех, кто воспринимает сервировку как продолжение интерьера и понимает, что именно детали формируют настроение дома, превращая обычный вечер в особенный.'
+    },
+    en: {
+      title: 'Italian IVV Glass: Light, Warmth and Atmosphere',
+      shortDesc:
+        'Italian IVV glass always works with light—it captures it, refracts it, and returns it with a soft, warm glow. In the gold Folies and Diamante collections, this effect is especially subtle: here, glass becomes more than just a table setting, but part of the home’s atmosphere. The Folies collection is distinguished by its smooth lines and vibrant, almost moving form. The rounded silhouettes create a sense of lightness. This glass pairs well with natural materials—linen tablecloths, wooden tables, and light-colored porcelain. Folies doesn’t strive to be the center of attention, but it creates a sense of coziness and collectedness, making the table appear thoughtful and warm.',
+      fullDesc:
+        'Italian IVV glass always works with light—it captures it, refracts it, and returns it with a soft, warm glow. In the gold Folies and Diamante collections, this effect is especially subtle: here, glass becomes more than just a table setting, but part of the home’s atmosphere. The Folies collection is distinguished by its smooth lines and vibrant, almost moving form. The rounded silhouettes create a sense of lightness. This glass pairs well with natural materials—linen tablecloths, wooden tables, and light-colored porcelain. Folies doesn’t strive to be the center of attention, but it creates a sense of coziness and collectedness, making the table appear thoughtful and warm. Diamante has a different feel. This collection features more graphics and structure, with more play of light on the facets. The glass surface resembles a crystal cut, and the gold line acts as an accent, adding rhythm and clarity to the composition. This glass looks particularly striking in contemporary interiors, contrasting with stone surfaces, dark textiles, or minimalist furniture. Diamante adds a more architectural and polished feel to table settings. Both collections are handcrafted, and this is precisely what gives them their special value. Subtle nuances in shape and subtle differences in reflections are signs of a living workmanship that cannot be reproduced in mass production. This glass does not appear cold or detached: it has a breath of fresh air, character, and a sense of time. The gold in Folies and Diamante is not about ostentation. It reflects candlelight, enhances evening lighting, and creates a soft shimmer at the table. This is the choice for those who perceive table settings as an extension of the interior and understand that it is the details that shape the mood of the home, turning an ordinary evening into a special one.'
+    },
+    kz: {
+      title: 'Итальяндық IVV әйнегі: Жарық, Жылы және Атмосфера',
+      shortDesc:
+        'Итальяндық ivv әйнегі әрқашан жарықпен жұмыс істейді — ол оны ұстап алады, сындырады және жұмсақ, жылы жарқылмен қайтарады. Folies және Diamante алтын коллекцияларында бұл әсер әсіресе нәзік түрде ашылады: мұнда әйнек тек қызмет көрсету элементіне ғана емес, үйдің атмосферасының бір бөлігіне айналады. Folies топтамасы тегіс сызықтармен және жанды, дерлік қозғалмалы пішінмен ерекшеленеді. Дөңгеленген силуэттер жеңілдік сезімін тудырады. Бұл әйнек табиғи материалдардың жанында жақсы сезінеді-зығыр дастархандар, ағаш үстелдер, жеңіл Фарфор. Folies назардың орталығы болуға ұмтылмайды, бірақ ол үстел ойластырылған және жылы болып көрінген кезде жайлылық пен жинақ сезімін тудырады.',
+      fullDesc:
+        'Итальяндық ivv әйнегі әрқашан жарықпен жұмыс істейді — ол оны ұстап алады, сындырады және жұмсақ, жылы жарқылмен қайтарады. Folies және Diamante алтын коллекцияларында бұл әсер әсіресе нәзік түрде ашылады: мұнда әйнек тек қызмет көрсету элементіне ғана емес, үйдің атмосферасының бір бөлігіне айналады. Folies топтамасы тегіс сызықтармен және жанды, дерлік қозғалмалы пішінмен ерекшеленеді. Дөңгеленген силуэттер жеңілдік сезімін тудырады. Бұл әйнек табиғи материалдардың жанында жақсы сезінеді-зығыр дастархандар, ағаш үстелдер, жеңіл Фарфор. Folies назардың орталығы болуға ұмтылмайды, бірақ ол үстел ойластырылған және жылы болып көрінген кезде жайлылық пен жинақ сезімін тудырады. Diamante басқаша естіледі. Бұл топтамада графика мен құрылым көбірек, шеттердегі жарық ойыны көбірек. Әйнектің беті кристалды кесуге ұқсайды, ал алтын сызық композицияға ритақ пен айқындық қосып, екпін ретінде жұмыс істейді. Мұндай әйнек әсіресе заманауи интерьерлерде, тас беттерімен, қара тоқыма бұйымдарымен немесе минималистік жиһаздармен ерекшеленеді. Diamante сервисті архитектуралық және толық етеді. Екі топтама да қолмен жасалған және бұл оларға ерекше құндылық береді. Пішіннің шамалы нюанстары, жарқыраудағы әрең байқалатын айырмашылықтар-сериялық өндірісте қайталанбайтын тірі жұмыс белгілері. Бұл әйнек суық немесе бөлек көрінбейді: оның тынысы, мінезі және уақыт сезімі бар. Folies және Diamante-дегі алтын-бұл көрсеткіш туралы емес. Ол шамдардың жарығын көрсетеді, кешкі жарықтандыруды күшейтеді, үстелде жұмсақ жыпылықтайды. Бұл қызмет көрсетуді интерьердің жалғасы ретінде қабылдайтын және қарапайым кешті ерекше кешке айналдыратын үйдің көңіл-күйін қалыптастыратын бөлшектер екенін түсінетіндер үшін таңдау.'
+    },
+    img: 'news-12.jpg'
+  },
+  {
+    id: '2',
     date: '16.12.2025',
     ru: {
       title: 'Бокалы La Rochère — французское стекло с душой',
@@ -49,7 +75,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-11.jpg'
   },
   {
-    id: '2',
+    id: '3',
     date: '18.05.2025',
     ru: {
       title: 'Домашняя библиотека',
@@ -75,7 +101,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-10.jpg'
   },
   {
-    id: '3',
+    id: '4',
     date: '01.11.2024',
     ru: {
       title: 'La CORNUE',
@@ -101,7 +127,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-9.jpg'
   },
   {
-    id: '4',
+    id: '5',
     date: '15.06.2024',
     ru: {
       title: 'Итальянская керамика',
@@ -127,7 +153,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-1.jpg'
   },
   {
-    id: '5',
+    id: '6',
     date: '20.04.2024',
     ru: {
       title: 'Шарфы и пледы Elvang',
@@ -153,7 +179,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-2.jpg'
   },
   {
-    id: '6',
+    id: '7',
     date: '20.03.2024',
     ru: {
       title: 'Диван-кровать',
@@ -179,7 +205,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-3.jpg'
   },
   {
-    id: '7',
+    id: '8',
     date: '25.02.2024',
     ru: {
       title: 'Домашняя библиотека',
@@ -205,7 +231,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-4.jpg'
   },
   {
-    id: '8',
+    id: '9',
     date: '13.01.2024',
     ru: {
       title: 'Вазы в интерьере',
@@ -231,7 +257,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-5.jpg'
   },
   {
-    id: '9',
+    id: '10',
     date: '10.12.2023',
     ru: {
       title: 'Мы открыли сезон!',
@@ -257,7 +283,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-6.jpg'
   },
   {
-    id: '10',
+    id: '11',
     date: '01.11.2023',
     ru: {
       title: 'Мне по фэншуй: как правильно сделать перестановку мебели в доме',
@@ -283,7 +309,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-7.jpg'
   },
   {
-    id: '11',
+    id: '12',
     date: '01.11.2023',
     ru: {
       title: '«Сделано в Италии»',
