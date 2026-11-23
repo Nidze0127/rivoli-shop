@@ -24,6 +24,32 @@ export const emptyArticle: NewsDetails = {
 export const newsCollection: NewsDetails[] = [
   {
     id: '1',
+    date: '21.11.2026',
+    ru: {
+      title: 'Новый год в деталях: искусство создавать праздничное настроение',
+      shortDesc:
+        'У новогоднего интерьера есть одна особенность: его невозможно создать исключительно по правилам. Он складывается из личных предпочтений, воспоминаний, любимых вещей и тех самых деталей, которые каждый год хочется доставать из заветных коробок. Для кого-то это старинные стеклянные шары, для кого-то — забавные фигурки, музыкальные композиции или необычные украшения, однажды покорившие сердце. Постепенно они становятся частью семейной истории и приобретают особую ценность.',
+      fullDesc:
+        'У новогоднего интерьера есть одна особенность: его невозможно создать исключительно по правилам. Он складывается из личных предпочтений, воспоминаний, любимых вещей и тех самых деталей, которые каждый год хочется доставать из заветных коробок. Для кого-то это старинные стеклянные шары, для кого-то — забавные фигурки, музыкальные композиции или необычные украшения, однажды покорившие сердце. Постепенно они становятся частью семейной истории и приобретают особую ценность. Современный новогодний декор гораздо разнообразнее привычного набора ёлочных игрушек и гирлянд. Это целая коллекция предметов, каждый из которых способен задать собственное настроение. Расписное стекло, сказочные персонажи, миниатюрные домики, музыкальные шкатулки, карусели и декоративные композиции открывают немало возможностей для оформления дома. Здесь нет необходимости придерживаться единой концепции: гораздо интереснее сочетать предметы, которые действительно нравятся и отражают характер хозяев. Особое удовольствие доставляют вещи, в которых хочется рассмотреть каждую мелочь. Необычная форма, игра оттенков, фактура материала, тонкая роспись, тщательно проработанные элементы — именно такие особенности отличают интересный предмет от обычного украшения. Иногда одной выразительной игрушки достаточно, чтобы придать ёлке совершенно другое звучание. А небольшая композиция на консоли или журнальном столике способна стать самостоятельным украшением комнаты. Праздничная атмосфера, конечно, не ограничивается ёлкой. Музыкальные изделия, декоративные фигурки, подсвечники и предметы сервировки помогают объединить интерьер в единую композицию. Они уместны в гостиной, столовой, на каминной полке или небольшом столике и нередко остаются в доме гораздо дольше новогодних праздников. В Rivoli Gallery представлены новогодние коллекции европейских производителей — от традиционных рождественских украшений до необычных дизайнерских находок. Здесь можно подобрать как предметы для классического праздничного оформления, так и выразительные акценты, вокруг которых будет строиться весь интерьер. Возможно, именно сейчас найдётся та самая игрушка, которая станет частью вашей новогодней традиции. Ведь самые дорогие украшения — не обязательно самые редкие или дорогие по стоимости. Это вещи, с которыми связаны приятные воспоминания, семейные встречи и ожидание чуда, которое каждый декабрь возвращается в наш дом ✨'
+    },
+    en: {
+      title: 'New Year’s in Detail: The Art of Creating a Festive Mood',
+      shortDesc:
+        'A New Year’s interior has a unique quality: it cannot be created by following a rigid set of rules. Instead, it is woven together from personal preferences, cherished memories, beloved objects, and those special items that one looks forward to retrieving from their storage boxes year after year. For some, this might mean vintage glass baubles; for others, it could be whimsical figurines, musical pieces, or unique ornaments that once captured their hearts. Over time, these objects become part of a family’s history, taking on a special, sentimental value.',
+      fullDesc:
+        'A New Year’s interior has a unique quality: it cannot be created by following a rigid set of rules. Instead, it is woven together from personal preferences, cherished memories, beloved objects, and those special items that one looks forward to retrieving from their storage boxes year after year. For some, this might mean vintage glass baubles; for others, it could be whimsical figurines, musical pieces, or unique ornaments that once captured their hearts. Over time, these objects become part of a family’s history, taking on a special, sentimental value. Modern holiday decor goes far beyond the standard collection of tree ornaments and garlands; it is a diverse assemblage of pieces, each capable of setting its own distinct tone. Hand-painted glass, fairytale characters, miniature houses, music boxes, carousels, and decorative arrangements offer endless possibilities for styling a home. There is no need to adhere to a single, unified concept—it is far more compelling to combine items that you truly love and that reflect your own personality. There is a particular joy in objects that invite you to examine every tiny detail: an unusual shape, a subtle interplay of colors, a rich texture, delicate hand-painting, or meticulously crafted elements—these are the qualities that elevate an object from a simple decoration into something truly special. Sometimes, a single striking ornament is enough to transform the entire feel of a Christmas tree, while a small arrangement placed on a console table or coffee table can serve as a centerpiece in its own right. Of course, a festive atmosphere extends well beyond the tree itself. Musical pieces, decorative figurines, candlesticks, and tableware help tie an interior together into a cohesive whole. These items look perfectly at home in a living room, dining room, on a mantelpiece, or atop a small side table—and they often remain in the home long after the holiday season has come to an end. Rivoli Gallery showcases New Year and Christmas collections from European makers—ranging from traditional holiday ornaments to unique, designer-crafted pieces. Whether you are looking for items to create a classic festive look or seeking striking statement pieces to anchor your entire holiday decor, you will find the perfect selection here. Perhaps you’ll discover that one special ornament destined to become a cherished part of your own holiday tradition. After all, the most precious decorations aren’t necessarily the rarest or the most expensive; they are the ones tied to fond memories, family gatherings, and the anticipation of the magic that returns to our homes every December ✨'
+    },
+    kz: {
+      title: 'Жаңа жыл нақыштары: мерекелік көңіл күй сыйлайтын әшекейлер',
+      shortDesc:
+        'Жаңа жылдық безендірудің өзіндік ерекшелігі бар: оны белгілі бір ережеге сүйеніп қана жасау мүмкін емес. Ол әр адамның талғамынан, естеліктерінен, сүйікті бұйымдарынан және жыл сайын қайта көргісі келетін әшекейлерінен құралады. Бірі үшін бұл — шыныдан жасалған көне шырша ойыншықтары, енді бірі үшін — ертегі кейіпкерлерінің мүсіндері, әуенді композициялар немесе бір көргеннен көңілінен шыққан ерекше бұйымдар. Уақыт өте келе олардың әрқайсысы отбасылық дәстүрдің бір бөлшегіне айналады.',
+      fullDesc:
+        'Жаңа жылдық безендірудің өзіндік ерекшелігі бар: оны белгілі бір ережеге сүйеніп қана жасау мүмкін емес. Ол әр адамның талғамынан, естеліктерінен, сүйікті бұйымдарынан және жыл сайын қайта көргісі келетін әшекейлерінен құралады. Бірі үшін бұл — шыныдан жасалған көне шырша ойыншықтары, енді бірі үшін — ертегі кейіпкерлерінің мүсіндері, әуенді композициялар немесе бір көргеннен көңілінен шыққан ерекше бұйымдар. Уақыт өте келе олардың әрқайсысы отбасылық дәстүрдің бір бөлшегіне айналады. Қазіргі жаңа жылдық безендіру шырша ойыншықтары мен жарқыраған шамдардан әлдеқайда кең. Бұл — әрқайсысының өзіндік сипаты бар әсем бұйымдар әлемі. Өрнек салынған шыны ойыншықтар, ертегі кейіпкерлері, шағын үйлер, әуенді қобдишалар, карусельдер мен сәндік композициялар үйді безендірудің сан түрлі жолын ұсынады. Мұнда бір ғана стильді ұстанудың қажеті жоқ. Керісінше, өзіңізге ұнайтын, үйіңіздің болмысына сай келетін бұйымдарды үйлестіре білу әлдеқайда қызықты. Әр бөлшегіне үңіліп қарағың келетін бұйымдардың орны бөлек. Ерекше пішін, реңктердің үйлесімі, материалдың бедері, нәзік өрнек пен ұқыпты орындалған ұсақ бөлшектер — әшекейге өзіндік ерекшелік беретін қасиеттер. Кейде шыршаға тағылған бір ғана ерекше ойыншық оның бүкіл көрінісін өзгерте алады. Ал консольдің немесе шағын үстелдің үстіндегі сәндік композиция бөлменің жеке бір көркіне айналады. Мерекелік көңіл күй тек шыршамен шектелмейді. Әуенді бұйымдар, сәндік мүсіндер, шырағдандар мен дастарқан әшекейлері үйдің әр бұрышына мерекелік реңк береді. Олар қонақ бөлмеде де, ас ішетін аймақта да, каминнің үстінде немесе шағын үстелдің бетінде де әдемі көрінеді. Оның үстіне, мұндай бұйымдардың көпшілігі мереке аяқталғаннан кейін де интерьердің сәнін келтіре береді. Rivoli Gallery салонында еуропалық өндірушілердің жаңа жылдық топтамалары ұсынылған. Дәстүрлі Рождество әшекейлерінен бастап, ерекше дизайнерлік бұйымдарға дейінгі кең таңдаудың арасынан әркім өз талғамына сай дүниені таба алады. Мұнда классикалық безендіруге арналған әшекейлер де, бүкіл интерьердің көркін айқындайтын ерекше бұйымдар да бар. Бәлкім, дәл осы жолы сіздің жаңа жылдық дәстүріңіздің бір бөлшегіне айналатын ерекше ойыншықты кездестірерсіз. Өйткені ең қымбат әшекейлер әрдайым бағасымен өлшенбейді. Олардың қадірі — байланыстыратын естеліктерінде, отбасылық басқосуларда және әр желтоқсанда үйімізге қайта оралатын ғажайыпты күту сезімінде ✨'
+    },
+    img: 'news-13.jpg'
+  },
+  {
+    id: '2',
     date: '25.02.2026',
     ru: {
       title: 'Итальянское стекло IVV: Свет, Тепло и Атмосфера',
@@ -49,7 +75,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-12.jpg'
   },
   {
-    id: '2',
+    id: '3',
     date: '16.12.2025',
     ru: {
       title: 'Бокалы La Rochère — французское стекло с душой',
@@ -75,7 +101,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-11.jpg'
   },
   {
-    id: '3',
+    id: '4',
     date: '18.05.2025',
     ru: {
       title: 'Домашняя библиотека',
@@ -101,7 +127,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-10.jpg'
   },
   {
-    id: '4',
+    id: '5',
     date: '01.11.2024',
     ru: {
       title: 'La CORNUE',
@@ -127,7 +153,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-9.jpg'
   },
   {
-    id: '5',
+    id: '6',
     date: '15.06.2024',
     ru: {
       title: 'Итальянская керамика',
@@ -153,7 +179,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-1.jpg'
   },
   {
-    id: '6',
+    id: '7',
     date: '20.04.2024',
     ru: {
       title: 'Шарфы и пледы Elvang',
@@ -179,7 +205,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-2.jpg'
   },
   {
-    id: '7',
+    id: '8',
     date: '20.03.2024',
     ru: {
       title: 'Диван-кровать',
@@ -205,7 +231,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-3.jpg'
   },
   {
-    id: '8',
+    id: '9',
     date: '25.02.2024',
     ru: {
       title: 'Домашняя библиотека',
@@ -231,7 +257,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-4.jpg'
   },
   {
-    id: '9',
+    id: '10',
     date: '13.01.2024',
     ru: {
       title: 'Вазы в интерьере',
@@ -257,7 +283,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-5.jpg'
   },
   {
-    id: '10',
+    id: '11',
     date: '10.12.2023',
     ru: {
       title: 'Мы открыли сезон!',
@@ -283,7 +309,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-6.jpg'
   },
   {
-    id: '11',
+    id: '12',
     date: '01.11.2023',
     ru: {
       title: 'Мне по фэншуй: как правильно сделать перестановку мебели в доме',
@@ -309,7 +335,7 @@ export const newsCollection: NewsDetails[] = [
     img: 'news-7.jpg'
   },
   {
-    id: '12',
+    id: '13',
     date: '01.11.2023',
     ru: {
       title: '«Сделано в Италии»',
